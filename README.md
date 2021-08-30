@@ -7,7 +7,7 @@ A native jr iOS developer with experience in Swift. Currently have 2 apps on the
 * Swift, XCode, iOS Development, iOS SDK, Application Development, MVM Design, Continuous Integration, XCTests, Test-Driven-Development
 * JSON, REST API
 * PostgreSQL, pgAdmin
-* UI Design, UX Design
+* UI Design, UX Design, Sketch
 * Github
 * Agile Development
 * Telecommunication
@@ -17,4 +17,9 @@ A native jr iOS developer with experience in Swift. Currently have 2 apps on the
 
 ## Warning Light Camera <a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank"><img src="assets/icon.png" width="20" title="Warning Light Camera"></a>
 
-Everyone has been in this situation, your driving around and then suddenly, a light appears on the dashboard. You look through the think manual the dealership gave you, but you still don't understand how to turn it off or more importantly, is it safe to drive? [Warning Light Camera](https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1) is the answer to that problem. This is my first app, developed entirely by me, from design, icons, images, and updates. 
+[Warning Light Camera](https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1) is an encyclopedia of dashboard lights from most vehicles on the road today. Using XCode's CreateML to produce an image recognition app that can actually identify the possible warning lights that have appeared. Each light comes with a detailed description, cause, procedure to turn off, as well as telling you the most important question, Can I Still Drive?
+
+##### Technologies: Swift, CoreML, Vision Framework, Google AdMob, MVM
+
+<p align="center">
+<a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank"><img src="assets/Warning_Light_Camera.png" width="900" title="Warning Light Camera"></a>
