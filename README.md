@@ -22,4 +22,8 @@ A native jr iOS developer with experience in Swift. Currently have 2 apps on the
 ##### Technologies: Swift, CoreML, Vision Framework, Google AdMob, MVM
 
 <p align="center">
-<a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank"><img src="assets/Warning_Light_Camera.png" width="900" title="Warning Light Camera"></a>
+<a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank"><img src="assets/WarningLightCamera.png" width="900" title="Warning Light Camera"></a>
+  
+  
+## QUIPP-Rights, Voting, Freedom <a href="https://apps.apple.com/us/app/quipp-rights-voting-freedom/id1535290604" target="_blank"><img src="assets/ACLUicon.png" width="20" title="QUIPP"></a>
+  
