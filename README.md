@@ -42,5 +42,4 @@ A native jr iOS developer with experience in Swift. Currently have 2 apps on the
 # Contacts:
 *Do not hesitate to contact me.*
 
-<a href="mailto:samgusaapp1993@gmail.com" target="_blank"><img src="assets/email.jpg" width="50" title="Email"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/sam-greenhill-408412173" target="_blank"><img src="assets/linkedin.png" width="50" title="LinkedIn"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://triplebyte.com/tb/sam-greenhill-cm0vocu" target="_blank"><img src="assets/triple.jpeg" width="50" title="Triplebyte></a>"
+<a href="mailto:samgusaapp1993@gmail.com" target="_blank"><img src="assets/email.jpg" width="50" title="Email"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/sam-greenhill-408412173" target="_blank"><img src="assets/linkedin.png" width="50" title="LinkedIn"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://triplebyte.com/tb/sam-greenhill-cm0vocu" target="_blank"><img src="assets/triple.jpg" width="50" title="Triplebyte></a>"
