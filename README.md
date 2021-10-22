@@ -9,11 +9,11 @@ A native jr iOS developer with experience in Swift. Currently have 2 apps on the
 * PostgreSQL, pgAdmin
 * UI Design, UX Design, Sketch
 * Github
+* Cocoapods, Carthage
 * Agile Development
 * Telecommunication
 * Combine, Reactive Programming 
 * UI Testing, UX Testing
-.
 
 # My Projects:
 
@@ -39,6 +39,7 @@ A native jr iOS developer with experience in Swift. Currently have 2 apps on the
   
 * MVVM
 * GraphQL
+* Swift Package Manager
 
   
 # Contacts:
