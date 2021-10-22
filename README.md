@@ -1,4 +1,4 @@
-## My iOS-Developer-Portfolio
+## My iOS Developer Portfolio
 # Sam Greenhill
 A native jr iOS developer with experience in Swift. Currently have 2 apps on the Apple app store. I am looking for a new opportunity to showcase my skills. 
 .
@@ -12,6 +12,7 @@ A native jr iOS developer with experience in Swift. Currently have 2 apps on the
 * Agile Development
 * Telecommunication
 * Combine, Reactive Programming 
+* UI Testing, UX Testing
 .
 
 # My Projects:
@@ -37,7 +38,8 @@ A native jr iOS developer with experience in Swift. Currently have 2 apps on the
 # Currently Studying
   
 * MVVM
-* UI Testing, UX Testing
+* GraphQL
+
   
 # Contacts:
 *Do not hesitate to contact me.*
