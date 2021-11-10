@@ -39,6 +39,7 @@ A self taught jr iOS developer with experience in Swift. Currently have 2 apps o
 # Currently Studying
   
 * Swift Package Manager
+* SwiftUI
 
   
 # Contacts:
