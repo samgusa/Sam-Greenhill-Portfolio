@@ -4,7 +4,7 @@ A self taught jr iOS developer with experience in Swift. Currently have 2 apps o
 .
 
 # Special Skills:
-* Swift, XCode, iOS Development, iOS SDK, Application Development, Continuous Integration, XCTests, Test-Driven-Development
+* Swift, XCode, iOS Development, iOS SDK, Application Development, Version Control, XCTests, Test-Driven-Development
 * JSON, REST API
 * PostgreSQL, pgAdmin
 * UI Design, UX Design, Sketch
