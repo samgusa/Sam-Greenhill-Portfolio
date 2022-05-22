@@ -1,7 +1,6 @@
 ## My iOS Developer Portfolio
 # Sam Greenhill
-A self taught jr iOS developer with experience in Swift. Currently have 2 apps on the Apple app store. I am looking for a new opportunity to showcase my skills. 
-.
+A self-taught iOS Engineer, proficient in application development and with start-up experience. I developed two apps for the Apple App Store by myself, and have worked at a fast paced start-up. I love to learn and use my skills to develop mobile applications. 
 
 # Special Skills:
 * Swift, UIKit, SwiftUI, iOS Development, iOS SDK, XCTests, Test-Driven-Development
@@ -17,10 +16,17 @@ A self taught jr iOS developer with experience in Swift. Currently have 2 apps o
 
 # Work Experience:
 
-## Dispo 
-
 ## Dispo: Live in the moment <a href="https://apps.apple.com/us/app/dispo-digital-disposable-cam/id1491684197" target="_blank"><img src="assets/dispo.jpeg" width="20" title="Dispo: Live in the moment"></a>
+[Dispo: Live in the moment](https://apps.apple.com/us/app/dispo-digital-disposable-cam/id1491684197) 
 
+Contract Position: Feb 2022 - May 2022
+
+Responsibilities: 
+* Help make custom changes to the Dispo App
+* Collaborate with backend and design teams to update and develop new features
+* Helped move code base from UIKit to SwiftUI
+* Participate in team code reviews
+* Fix bugs
 
 # My Projects:
 
@@ -41,12 +47,6 @@ A self taught jr iOS developer with experience in Swift. Currently have 2 apps o
 ##### Technologies: Swift, Diffable Data Source, JSON, MVC
   
 <p align="center"> <a href="https://apps.apple.com/us/app/quipp-rights-voting-freedom/id1535290604" target="_blank"><img src="assets/QUIPP.png" width="900" title="QUIPP-Rights, Voting, Freedom"></a>
-  
-# Currently Studying
-  
-* Swift Package Manager
-* SwiftUI
-
   
 # Contacts:
 *Do not hesitate to contact me.*
