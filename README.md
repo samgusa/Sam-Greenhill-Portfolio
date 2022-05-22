@@ -4,7 +4,7 @@ A self taught jr iOS developer with experience in Swift. Currently have 2 apps o
 .
 
 # Special Skills:
-* Swift, XCode, iOS Development, iOS SDK, Application Development, Version Control, XCTests, Test-Driven-Development
+* Swift, UIKit, SwiftUI, iOS Development, iOS SDK, XCTests, Test-Driven-Development
 * JSON, REST API
 * UI Design, UX Design, Sketch
 * Github
@@ -14,6 +14,13 @@ A self taught jr iOS developer with experience in Swift. Currently have 2 apps o
 * Combine, Reactive Programming 
 * UI Testing, UX Testing
 * MVC and MVVM Design Pattern, Clean Architecture Pattern
+
+# Work Experience:
+
+## Dispo 
+
+## Dispo: Live in the moment <a href="https://apps.apple.com/us/app/dispo-digital-disposable-cam/id1491684197" target="_blank"><img src="assets/dispo.jpeg" width="20" title="Dispo: Live in the moment"></a>
+
 
 # My Projects:
 
