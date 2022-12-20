@@ -1,5 +1,7 @@
 ## My iOS Developer Portfolio
 # Sam Greenhill
+
+
 A self-taught iOS Engineer, proficient in application development and with start-up experience. I developed two apps for the Apple App Store by myself, and have worked at a fast paced start-up. I love to learn and use my skills to develop mobile applications. 
 
 # Special Skills:
@@ -51,4 +53,4 @@ Responsibilities:
 # Contacts:
 *Do not hesitate to contact me.*
 
-<a href="mailto:samgusaapp1993@gmail.com" target="_blank"><img src="assets/email.jpg" width="50" title="Email"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/sam-greenhill-408412173" target="_blank"><img src="assets/linkedin.png" width="50" title="LinkedIn"></a>
+<a href="mailto:samgusaapp1993@gmail.com" target="_blank"><img src="assets/email.jpg" width="50" title="Email"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/sam-greenhill-408412173" target="_blank"><img src="assets/linkedin.png" width="50" title="LinkedIn"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/samgusa?tab=repositories" target="_blank"><img src="assets/github.png" width="50" title="Github"></a>
