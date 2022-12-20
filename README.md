@@ -50,6 +50,16 @@ Responsibilities:
   
 <p align="center"> <a href="https://apps.apple.com/us/app/quipp-rights-voting-freedom/id1535290604" target="_blank"><img src="assets/QUIPP.png" width="900" title="QUIPP-Rights, Voting, Freedom"></a>
   
+# Code Examples
+  
+  
+##### ViewModel:   
+
+<a href="https://github.com/samgusa/OmadaHealthApp/blob/main/OmadaHealthApp/ViewModel/MainViewModel.swift" target="_blank"><img height="500" alt="Screenshot 2022-12-20 at 5 41 40 PM" src="https://user-images.githubusercontent.com/45985527/208783159-ad4fed4a-2337-409a-8509-89aa582bfa4d.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="500" alt="Screenshot 2022-12-20 at 5 41 40 PM" src="https://user-images.githubusercontent.com/45985527/208782251-6afbda25-2529-4225-bb08-c88452bbd7ba.mp4"></a>
+  
+  
+
+
 # Contacts:
 *Do not hesitate to contact me.*
 
