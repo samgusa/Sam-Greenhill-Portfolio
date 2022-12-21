@@ -54,17 +54,27 @@ Responsibilities:
   
   
 ##### ViewModel:   
-
-<a href="https://github.com/samgusa/OmadaHealthApp/blob/main/OmadaHealthApp/ViewModel/MainViewModel.swift" target="_blank"><img height="500" alt="Screenshot 2022-12-20 at 5 41 40 PM" src="https://user-images.githubusercontent.com/45985527/208783159-ad4fed4a-2337-409a-8509-89aa582bfa4d.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="500" alt="Screenshot 2022-12-20 at 5 41 40 PM" src="https://user-images.githubusercontent.com/45985527/208782251-6afbda25-2529-4225-bb08-c88452bbd7ba.mp4"></a>
+  
+  
+| ViewModel: |  |
+| --- | --- |
+| <a href="https://github.com/samgusa/OmadaHealthApp/blob/main/OmadaHealthApp/ViewModel/MainViewModel.swift" target="_blank"><img height="500" alt="Screenshot 2022-12-20 at 5 41 40 PM" src="https://user-images.githubusercontent.com/45985527/208783159-ad4fed4a-2337-409a-8509-89aa582bfa4d.png"> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="500" alt="Screenshot 2022-12-20 at 5 41 40 PM" src="https://user-images.githubusercontent.com/45985527/208782251-6afbda25-2529-4225-bb08-c88452bbd7ba.mp4"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 
 | View: | Model: |
 | --- | --- |
 | <a href="https://github.com/samgusa/OmadaHealthApp/blob/main/OmadaHealthApp/View/View/MainView.swift" target="_blank"><img width="500" alt="Screenshot 2022-12-20 at 6 13 07 PM" src="https://user-images.githubusercontent.com/45985527/208784103-f8d3372e-ade2-4b6c-9ccf-76052a176e8e.png"> | <a href="https://github.com/samgusa/OmadaHealthApp/blob/main/OmadaHealthApp/Model/QuoteData.swift" target="_blank"><img width="500" alt="Screenshot 2022-12-20 at 6 16 28 PM" src="https://user-images.githubusercontent.com/45985527/208784457-35557846-7e13-4b62-9841-db3401b47249.png"> |
 
+  
+| Custom Transition |  |
+| --- | --- |
+| <img width="500" alt="Screenshot 2022-12-20 at 6 23 33 PM" src="https://user-images.githubusercontent.com/45985527/208785339-27877374-c4b1-4dd8-9dd3-e8930becff3f.png"> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="500" alt="Screenshot 2022-12-20 at 5 41 40 PM" src="https://user-images.githubusercontent.com/45985527/208799447-79498180-31bd-4a9f-9cd4-a7a4b47ed5d9.mp4"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+  
 
-##### Custom Transition
 
-<a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank"><img width="300" alt="Screenshot 2022-12-20 at 6 23 33 PM" src="https://user-images.githubusercontent.com/45985527/208785339-27877374-c4b1-4dd8-9dd3-e8930becff3f.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
 
 
 
