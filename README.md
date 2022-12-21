@@ -58,11 +58,11 @@ Responsibilities:
 
 | SwiftUI | [See In Real Time](https://apps.apple.com/us/app/quipp-rights-voting-freedom/id1535290604) |
 | --- | --- |
-| <img width="488" alt="Screenshot 2022-12-20 at 8 47 49 PM" src="https://user-images.githubusercontent.com/45985527/208801295-5d02b497-61a1-419e-a34e-4c4685708ecf.png">&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="500" alt="Screenshot 2022-12-20 at 5 41 40 PM" src="https://user-images.githubusercontent.com/45985527/208801536-11943a3f-c6cd-4064-887d-da68ffe285a2.mp4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| <img width="488" alt="Screenshot 2022-12-20 at 8 47 49 PM" src="https://user-images.githubusercontent.com/45985527/208801295-5d02b497-61a1-419e-a34e-4c4685708ecf.png">&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="500"  src="https://user-images.githubusercontent.com/45985527/208801536-11943a3f-c6cd-4064-887d-da68ffe285a2.mp4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
   
 | ViewModel: | Combine |
 | --- | --- |
-| <a href="https://github.com/samgusa/OmadaHealthApp/blob/main/OmadaHealthApp/ViewModel/MainViewModel.swift" target="_blank"><img height="450" alt="Screenshot 2022-12-20 at 5 41 40 PM" src="https://user-images.githubusercontent.com/45985527/208783159-ad4fed4a-2337-409a-8509-89aa582bfa4d.png"> | <img width="598" alt="Screenshot 2022-12-20 at 8 56 21 PM" src="https://user-images.githubusercontent.com/45985527/208804242-28eda6de-593d-4746-9767-8782652f386b.png"> |
+| <a href="https://github.com/samgusa/OmadaHealthApp/blob/main/OmadaHealthApp/ViewModel/MainViewModel.swift" target="_blank"><img height="450" alt="Screenshot 2022-12-20 at 5 41 40 PM" src="https://user-images.githubusercontent.com/45985527/208783159-ad4fed4a-2337-409a-8509-89aa582bfa4d.png"> | <img width="598" src="https://user-images.githubusercontent.com/45985527/208804242-28eda6de-593d-4746-9767-8782652f386b.png"> |
 
 | View: | Model: |
 | --- | --- |
@@ -70,8 +70,15 @@ Responsibilities:
   
 | Custom Transition | [See In Real Time](https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1) |
 | --- | --- |
-| <img width="500" alt="Screenshot 2022-12-20 at 6 23 33 PM" src="https://user-images.githubusercontent.com/45985527/208785339-27877374-c4b1-4dd8-9dd3-e8930becff3f.png"> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="500" alt="Screenshot 2022-12-20 at 5 41 40 PM" src="https://user-images.githubusercontent.com/45985527/208799447-79498180-31bd-4a9f-9cd4-a7a4b47ed5d9.mp4"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| <img width="500" alt="Screenshot 2022-12-20 at 6 23 33 PM" src="https://user-images.githubusercontent.com/45985527/208785339-27877374-c4b1-4dd8-9dd3-e8930becff3f.png"> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="500" src="https://user-images.githubusercontent.com/45985527/208799447-79498180-31bd-4a9f-9cd4-a7a4b47ed5d9.mp4"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
   
+| Custom SwiftUI | [See In Real Time](https://github.com/samgusa/ArrowTest) |
+| --- | --- |
+| <img width="523" alt="Screenshot 2022-12-20 at 9 26 38 PM" src="https://user-images.githubusercontent.com/45985527/208806148-482227ef-02a6-4fd7-9c64-2067f793b64d.png"> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="500" src="https://user-images.githubusercontent.com/45985527/208806162-9b0357a9-d4c4-45f3-883c-a40a8c649002.mp4"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+
+
+
+
 
 
 
