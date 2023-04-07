@@ -2,7 +2,7 @@
 # Sam Greenhill
 
 
-A self-taught iOS Engineer, proficient in application development and with start-up experience. I developed two apps for the Apple App Store by myself, and have worked at a fast paced start-up. I love to learn and use my skills to develop mobile applications. 
+A self-taught iOS Engineer, proficient in application development and with start-up experience. I developed two apps for the Apple App Store by myself, and have worked at two fast paced start-ups. I love to learn and use my skills to develop mobile applications. 
 
 # Special Skills:
 * Swift, UIKit, SwiftUI, iOS Development, iOS SDK, XCTests, Test-Driven-Development
@@ -15,8 +15,22 @@ A self-taught iOS Engineer, proficient in application development and with start
 * Combine, Reactive Programming 
 * UI Testing, UX Testing
 * MVC and MVVM Design Pattern, Clean Architecture Pattern
+* Jira
 
 # Work Experience:
+
+## Fourplay:  <a href="https://apps.apple.com/us/app/fourplay-double-dating-app/id1463551449" target="_blank"><img src="assets/Fourplay.jpeg" width="20" title="Fourplay Social"></a>
+[Fourplay Social](https://apps.apple.com/us/app/fourplay-double-dating-app/id1463551449) 
+
+Jan 2023 - Present
+
+Responsibilities: 
+* Helped develop a dating app with a growing user base
+* Headed and accelerated the front end design changes using SwiftUI
+* Worked with the lead developer to expand front
+* Utilized Jira to keep track of issues and tasks
+* Fixed all application bugs to improve user experience
+
 
 ## Dispo: Live in the moment <a href="https://apps.apple.com/us/app/dispo-digital-disposable-cam/id1491684197" target="_blank"><img src="assets/dispo.jpeg" width="20" title="Dispo: Live in the moment"></a>
 [Dispo: Live in the moment](https://apps.apple.com/us/app/dispo-digital-disposable-cam/id1491684197) 
@@ -24,11 +38,13 @@ A self-taught iOS Engineer, proficient in application development and with start
 Contract Position: Feb 2022 - May 2022
 
 Responsibilities: 
-* Help make custom changes to the Dispo App
+* Designed effective, maintainable and reusable code for the Dispo app
 * Collaborate with backend and design teams to update and develop new features
+* Linked backend code to app using GraphQL
 * Helped move code base from UIKit to SwiftUI
 * Participate in team code reviews
-* Fix bugs
+* Diagnosed and fixed all application bugs to improve app ratings
+
 
 # My Projects:
 
