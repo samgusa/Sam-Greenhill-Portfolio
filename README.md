@@ -19,7 +19,7 @@ A self-taught iOS Engineer, proficient in application development and with start
 
 # Work Experience:
 
-## Fourplay:  <a href="https://apps.apple.com/us/app/fourplay-double-dating-app/id1463551449" target="_blank"><img src="assets/Fourplay.jpeg" width="20" title="Fourplay Social"></a>
+## Fourplay Social  <a href="https://apps.apple.com/us/app/fourplay-double-dating-app/id1463551449" target="_blank"><img src="assets/Fourplay.jpeg" width="20" title="Fourplay Social"></a>
 [Fourplay Social](https://apps.apple.com/us/app/fourplay-double-dating-app/id1463551449) 
 
 Jan 2023 - Present
