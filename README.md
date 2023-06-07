@@ -29,8 +29,7 @@ Responsibilities:
 * Headed and accelerated the front end design changes using SwiftUI
 * Worked with the lead developer to expand front
 * Utilized Jira to keep track of issues and tasks
-* Fixed all application bugs to improve user experience
-
+* Spearheaded the implementation of Lottie and Lottie animations
 
 ## Dispo: Live in the moment <a href="https://apps.apple.com/us/app/dispo-digital-disposable-cam/id1491684197" target="_blank"><img src="assets/dispo.jpeg" width="20" title="Dispo: Live in the moment"></a>
 [Dispo: Live in the moment](https://apps.apple.com/us/app/dispo-digital-disposable-cam/id1491684197) 
