@@ -97,6 +97,13 @@ Responsibilities:
 
 
 
+# Check Out Cool and fun animations
+  
+<img height="200" src="https://github.com/samgusa/iOS-Developer-Portfolio/assets/45985527/f384c459-8fb1-4bb7-abbb-a6e6ae3ea4fc">
+  
+[https://github.com/samgusa/FunAnimations/tree/main](https://github.com/samgusa/FunAnimations/tree/main)
+
+
 
 
 
