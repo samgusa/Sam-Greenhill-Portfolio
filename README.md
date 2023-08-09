@@ -5,6 +5,44 @@
 A self-taught iOS Engineer, proficient in application development and with start-up experience. I developed two apps for the Apple App Store by myself, and have worked at two fast paced start-ups. I love to learn and use my skills to develop mobile applications. 
 
 # Special Skills:
+
+**Programming and Development:** 
+* Swift
+* UIKit
+* SwiftUI
+* iOS Development
+* iOS SDK
+* Test-Driven Development (TDD)
+* XCTest (iOS Testing Framework)
+* JSON and REST API Integration
+
+**Design and User Experience:**
+* UI Design
+* UX Design
+* Sketch (Design Software)
+* Figma (Design Software)
+* Version Control and Collaboration:
+
+Git and GitHub
+Cocoapods and Carthage (Dependency Managers)
+Agile Development (Scrum and Kanban)
+Telecommunication (Communication Tools for Remote Teams)
+Reactive Programming:
+
+Combine Framework
+Reactive Programming Principles
+Testing and Quality Assurance:
+
+UI Testing (User Interface Testing)
+UX Testing (User Experience Testing)
+Architectural Patterns:
+
+MVC (Model-View-Controller)
+MVVM (Model-View-ViewModel)
+Clean Architecture Pattern
+Project Management:
+
+Jira (Project Management and Issue Tracking)
 * Swift, UIKit, SwiftUI, iOS Development, iOS SDK, XCTests, Test-Driven-Development
 * JSON, REST API
 * UI Design, UX Design, Sketch
@@ -25,24 +63,36 @@ A self-taught iOS Engineer, proficient in application development and with start
 Jan 2023 - Present
 
 Responsibilities: 
-* Helped develop a dating app with a growing user base
-* Headed and accelerated the front end design changes using SwiftUI
-* Worked with the lead developer to expand front
-* Utilized Jira to keep track of issues and tasks
-* Spearheaded the implementation of Lottie and Lottie animations
+* Contributed to Growing Dating App Development:
+  - Played a vital role in the development of a thriving dating app with a rapidly expanding user base, contributing to the app's success and popularity.
+* Led Front-End Enhancements with SwiftUI:
+  - Took charge of and expedited front-end design improvements using SwiftUI, resulting in elevated user experiences and a visually engaging interface.
+* Collaborated with Lead Developer for Front-End Expansion:
+  - Collaborated seamlessly with the lead developer to extend and enhance front-end capabilities, effectively contributing to the app's feature-rich design.
+* Efficient Task Management via Jira:
+  - Utilized Jira to facilitate efficient tracking of issues and tasks, streamlining project management processes and ensuring seamless coordination within the team.
+* Initiated Lottie Animations Implementation:
+  - Pioneered the successful integration of Lottie animations, elevating the app's visual appeal and user engagement through captivating motion graphics.
 
 ## Dispo: Live in the moment <a href="https://apps.apple.com/us/app/dispo-digital-disposable-cam/id1491684197" target="_blank"><img src="assets/dispo.jpeg" width="20" title="Dispo: Live in the moment"></a>
 [Dispo: Live in the moment](https://apps.apple.com/us/app/dispo-digital-disposable-cam/id1491684197) 
 
 Contract Position: Feb 2022 - May 2022
 
-Responsibilities: 
-* Designed effective, maintainable and reusable code for the Dispo app
-* Collaborate with backend and design teams to update and develop new features
-* Linked backend code to app using GraphQL
-* Helped move code base from UIKit to SwiftUI
-* Participate in team code reviews
-* Diagnosed and fixed all application bugs to improve app ratings
+Responsibilities:
+
+* Designed Efficient and Reusable Codebase for Dispo App:
+  - Developed and architected robust, maintainable, and reusable code for the Dispo app, resulting in improved development efficiency and code quality.
+* Collaborated Cross-Functionally for Feature Enhancement:
+  - Worked closely with both backend and design teams to conceptualize, develop, and roll out innovative new features, contributing to enhanced user experiences and increased engagement.
+* Integrated Backend Logic Seamlessly with GraphQL:
+  - Successfully integrated backend logic into the app using GraphQL, ensuring efficient and streamlined data communication between the front-end and back-end components.
+* Drove Migration from UIKit to SwiftUI:
+  - Played an integral role in transitioning the app's codebase from UIKit to SwiftUI, leveraging the latest technology to deliver a modern and visually appealing user interface.
+* Engaged in Collaborative Code Reviews:
+  - Actively participated in team-wide code reviews, offering constructive feedback and ensuring code alignment with best practices, resulting in a higher standard of code quality and consistency.
+* Enhanced App Quality Through Bug Diagnosis and Resolution:
+  - Demonstrated a strong debugging acumen by promptly identifying and resolving application bugs, leading to an improved user experience, higher app ratings, and increased customer satisfaction.
 
 
 # My Projects:
