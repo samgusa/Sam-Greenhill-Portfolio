@@ -171,4 +171,4 @@ Responsibilities:
 # Contacts:
 *Do not hesitate to contact me.*
 
-<a href="mailto:samgusaapp1993@gmail.com" target="_blank"><img src="assets/email.jpg" width="50" title="Email"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="www.linkedin.com/in/samgreenhill" target="_blank"><img src="assets/linkedin.png" width="50" title="LinkedIn"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/samgusa?tab=repositories" target="_blank"><img src="assets/github.png" width="50" title="Github"></a>
+<a href="mailto:samgusaapp1993@gmail.com" target="_blank"><img src="assets/email.jpg" width="50" title="Email"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/samgreenhill/" target="_blank"><img src="assets/linkedin.png" width="50" title="LinkedIn"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/samgusa?tab=repositories" target="_blank"><img src="assets/github.png" width="50" title="Github"></a>
