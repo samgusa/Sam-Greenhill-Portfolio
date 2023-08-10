@@ -92,7 +92,7 @@ Responsibilities:
 
 [Warning Light Camera](https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1) is an encyclopedia of dashboard lights from most vehicles on the road today. Using XCode's CreateML to produce an image recognition app that can actually identify the possible warning lights that have appeared. Each light comes with a detailed description, cause, procedure to turn off, as well as telling you the most important question, Can I Still Drive?
 
-##### Technologies: Swift, CoreML, Vision Framework, Google AdMob, JSON, MVC
+##### Technologies: Swift, CoreML, Vision Framework, Google AdMob, JSON, MVVM
 
 <p align="center">
 <a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank"><img src="assets/WarningLightCamera.png" width="900" title="Warning Light Camera"></a>
@@ -102,7 +102,7 @@ Responsibilities:
   
 [QUIPP](https://apps.apple.com/us/app/quipp-rights-voting-freedom/id1535290604) is a free source of many of the freedoms and rights that Americans have in this country. This information is taken from the [ACLU]("https://www.aclu.org"), but not affiliated with them, which contains information ranging from rights in school, and voting rights. Each right comes with scenarios, examples, and helpful links and phone numbers to try and help anyone who does and wants to call America home. 
   
-##### Technologies: Swift, Diffable Data Source, JSON, MVC
+##### Technologies: Swift, SwiftUI, JSON, MVVM
   
 <p align="center"> <a href="https://apps.apple.com/us/app/quipp-rights-voting-freedom/id1535290604" target="_blank"><img src="assets/QUIPP.png" width="900" title="QUIPP-Rights, Voting, Freedom"></a>
   
