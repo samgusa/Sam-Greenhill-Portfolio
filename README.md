@@ -21,39 +21,30 @@ A self-taught iOS Engineer, proficient in application development and with start
 * UX Design
 * Sketch (Design Software)
 * Figma (Design Software)
-* Version Control and Collaboration:
 
-Git and GitHub
-Cocoapods and Carthage (Dependency Managers)
-Agile Development (Scrum and Kanban)
-Telecommunication (Communication Tools for Remote Teams)
-Reactive Programming:
+**Version Control and Collaboration:**
+* Git and GitHub
+* Cocoapods and Carthage (Dependency Managers)
+* Agile Development (Scrum and Kanban)
+* Telecommunication (Communication Tools for Remote Teams)
 
-Combine Framework
-Reactive Programming Principles
-Testing and Quality Assurance:
+**Reactive Programming:**
+* Combine Framework
+* Reactive Programming Principles
 
-UI Testing (User Interface Testing)
-UX Testing (User Experience Testing)
-Architectural Patterns:
+**Testing and Quality Assurance:**
+* UI Testing (User Interface Testing)
+* UX Testing (User Experience Testing)
 
-MVC (Model-View-Controller)
-MVVM (Model-View-ViewModel)
-Clean Architecture Pattern
-Project Management:
+  
+**Architectural Patterns:**
+* MVC (Model-View-Controller)
+* MVVM (Model-View-ViewModel)
+* Clean Architecture Pattern
 
-Jira (Project Management and Issue Tracking)
-* Swift, UIKit, SwiftUI, iOS Development, iOS SDK, XCTests, Test-Driven-Development
-* JSON, REST API
-* UI Design, UX Design, Sketch
-* Github
-* Cocoapods, Carthage
-* Agile Development
-* Telecommunication
-* Combine, Reactive Programming 
-* UI Testing, UX Testing
-* MVC and MVVM Design Pattern, Clean Architecture Pattern
-* Jira
+  
+**Project Management:**
+* Jira (Project Management and Issue Tracking)
 
 # Work Experience:
 
