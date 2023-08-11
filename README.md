@@ -2,7 +2,7 @@
 # Sam Greenhill
 
 
-A self-taught iOS Engineer, proficient in application development and with start-up experience. I developed two apps for the Apple App Store by myself, and have worked at two fast paced start-ups. I love to learn and use my skills to develop mobile applications. 
+Experienced iOS Developer proficient in Swift, UIKit, SwiftUI, and Combine Reactive Programming. Skilled in both MVC and MVVM design patterns, with a focus on Agile development and UI/UX design. Being a self-taught iOS Engineer, I am proficient in application development and experienced with start-ups. I developed two apps for the Apple App Store by myself, and have worked at two fast paced start-ups. I love to learn and use my skills to develop mobile applications. 
 
 # Special Skills:
 
@@ -110,11 +110,12 @@ Responsibilities:
  
 | UIKit | [See In Real Time](https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1) |
 | --- | --- |
-| <img height="300" alt="Screenshot 2022-12-20 at 8 59 49 PM" src="https://user-images.githubusercontent.com/45985527/208803738-8a14a7a6-a949-432f-b93f-c3783c1bd6a4.png"> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="500" src="https://user-images.githubusercontent.com/45985527/208804528-04e77fbc-0d76-41a3-820f-191641543c05.mp4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  
+| <img height="300" alt="Screenshot 2022-12-20 at 8 59 49 PM" src="https://user-images.githubusercontent.com/45985527/208803738-8a14a7a6-a949-432f-b93f-c3783c1bd6a4.png"> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/GifNum1.gif" alt="" width="250" height="500">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+
 
 | SwiftUI | [See In Real Time](https://apps.apple.com/us/app/quipp-rights-voting-freedom/id1535290604) |
 | --- | --- |
-| <img width="488" alt="Screenshot 2022-12-20 at 8 47 49 PM" src="https://user-images.githubusercontent.com/45985527/208801295-5d02b497-61a1-419e-a34e-4c4685708ecf.png">&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="500"  src="https://user-images.githubusercontent.com/45985527/208801536-11943a3f-c6cd-4064-887d-da68ffe285a2.mp4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| <img width="488" alt="Screenshot 2022-12-20 at 8 47 49 PM" src="https://user-images.githubusercontent.com/45985527/208801295-5d02b497-61a1-419e-a34e-4c4685708ecf.png">&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/ezgif.com-optimize.gif" alt="" width="250" height="500">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
   
 | ViewModel: | Combine |
 | --- | --- |
@@ -126,11 +127,11 @@ Responsibilities:
   
 | Custom Transition | [See In Real Time](https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1) |
 | --- | --- |
-| <img width="500" alt="Screenshot 2022-12-20 at 6 23 33 PM" src="https://user-images.githubusercontent.com/45985527/208785339-27877374-c4b1-4dd8-9dd3-e8930becff3f.png"> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="500" src="https://user-images.githubusercontent.com/45985527/208799447-79498180-31bd-4a9f-9cd4-a7a4b47ed5d9.mp4"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| <img width="500" alt="Screenshot 2022-12-20 at 6 23 33 PM" src="https://user-images.githubusercontent.com/45985527/208785339-27877374-c4b1-4dd8-9dd3-e8930becff3f.png"> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/GifNum2.gif" alt="" width="250" height="500"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
   
 | Custom SwiftUI | [See In Real Time](https://github.com/samgusa/ArrowTest) |
 | --- | --- |
-| <img width="523" alt="Screenshot 2022-12-20 at 9 26 38 PM" src="https://user-images.githubusercontent.com/45985527/208806148-482227ef-02a6-4fd7-9c64-2067f793b64d.png"> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="500" src="https://user-images.githubusercontent.com/45985527/208806162-9b0357a9-d4c4-45f3-883c-a40a8c649002.mp4"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| <img width="523" alt="Screenshot 2022-12-20 at 9 26 38 PM" src="https://user-images.githubusercontent.com/45985527/208806148-482227ef-02a6-4fd7-9c64-2067f793b64d.png"> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/GifNum3.gif" alt="" width="250" height="500"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 
 
 
@@ -139,26 +140,18 @@ Responsibilities:
 
 
 # Check out Cool and Fun Animations
-  
-<img height="200" src="https://github.com/samgusa/iOS-Developer-Portfolio/assets/45985527/f384c459-8fb1-4bb7-abbb-a6e6ae3ea4fc">
+  [https://github.com/samgusa/FunAnimations/tree/main](https://github.com/samgusa/FunAnimations/tree/main)
+<p float="left">
+<img src="assets/GifNum4.gif" alt="" width="100" height="200">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="200" src="https://github.com/samgusa/FunAnimations/assets/45985527/e89834a7-06e7-4681-b47f-e330b221623c">
+<img src="assets/GifNum5.gif" alt="" width="100" height="200">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="200" src="https://github.com/samgusa/FunAnimations/assets/45985527/8111e26a-90dd-46f1-acd0-22b3c3d5fa52">
+<img src="assets/GifNum6.gif" alt="" width="100" height="200">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="200" src="https://github.com/samgusa/FunAnimations/assets/45985527/2bfff1fe-a4d9-4a98-8d1a-ba05111d2e13">
+<img src="assets/GifNum7.gif" alt="" width="100" height="200">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="200" src="https://github.com/samgusa/FunAnimations/assets/45985527/537ee756-87cf-41c4-913f-df3dcef9efcb">
-  
-[https://github.com/samgusa/FunAnimations/tree/main](https://github.com/samgusa/FunAnimations/tree/main)
-
-
-
-
-
-
-
-
+<img src="assets/GifNum8.gif" alt="" width="100" height="200">
+</p>
 
 
 
