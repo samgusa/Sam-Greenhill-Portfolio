@@ -53,7 +53,7 @@ Experienced iOS Developer proficient in Swift, UIKit, SwiftUI, and Combine React
 
 Jan 2023 - Present
 
-Responsibilities: 
+**Responsibilities:** 
 * Contributed to Growing Dating App Development:
   - Played a vital role in the development of a thriving dating app with a rapidly expanding user base, contributing to the app's success and popularity.
 * Led Front-End Enhancements with SwiftUI:
@@ -70,7 +70,7 @@ Responsibilities:
 
 Contract Position: Feb 2022 - May 2022
 
-Responsibilities:
+**Responsibilities:**
 
 * Designed Efficient and Reusable Codebase for Dispo App:
   - Developed and architected robust, maintainable, and reusable code for the Dispo app, resulting in improved development efficiency and code quality.
