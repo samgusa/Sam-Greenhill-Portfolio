@@ -113,17 +113,18 @@ Whether you're designing a modern login screen, a stylish user profile form, or 
 
 ##### Technologies: Swift, SwiftUI, Swift Package Manager
 
-<img height="300" src="https://github.com/samgusa/SwiftyTextField/assets/45985527/5395734d-a8e4-4e7f-92a2-420e460ab640">
+<p float="left">
+<img src="assets/Hide.gif" alt="" width="150" height="300">
 &nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp
-<img height="300" src="https://github.com/samgusa/SwiftyTextField/assets/45985527/a5145c58-e887-4921-b758-aad43b2d364b">
+<img src="assets/Moving.gif" alt="" width="150" height="300">
 &nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp
-<img height="300" src="https://github.com/samgusa/SwiftyTextField/assets/45985527/dcd9f504-5761-432c-b809-863dfbe0881f">
+<img src="assets/Screened.gif" alt="" width="150" height="300">
 &nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp
-<img height="300" src="https://github.com/samgusa/SwiftyTextField/assets/45985527/2e13572f-24f2-4984-8789-dcf770cb2408">
+<img src="assets/Clear.gif" alt="" width="150" height="300">
 &nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp
-<img height="300" src="https://github.com/samgusa/SwiftyTextField/assets/45985527/440c10d4-2654-4265-9379-733d96b88583">
+<img src="assets/Validation.gif" alt="" width="150" height="300">
 &nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp
-
+</p>
 
 # Code Examples
 
