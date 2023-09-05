@@ -115,15 +115,14 @@ Whether you're designing a modern login screen, a stylish user profile form, or 
 
 <p float="left">
 <img src="assets/Hide.gif" alt="" width="150" height="300">
-&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp
+&nbsp;&nbsp;&nbsp&nbsp
 <img src="assets/Moving.gif" alt="" width="150" height="300">
-&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp
+&nbsp;&nbsp;&nbsp&nbsp
 <img src="assets/Screened.gif" alt="" width="150" height="300">
-&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp
+&nbsp;&nbsp;&nbsp&nbsp
 <img src="assets/Clear.gif" alt="" width="150" height="300">
-&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp
+&nbsp;&nbsp;&nbsp&nbsp
 <img src="assets/Validation.gif" alt="" width="150" height="300">
-&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp
 </p>
 
 # Code Examples
