@@ -126,37 +126,154 @@ Whether you're designing a modern login screen, a stylish user profile form, or 
 
 
 # Code Examples
- 
-| UIKit | [See In Real Time](https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1) |
-| --- | --- |
-| <img height="300" alt="Screenshot 2022-12-20 at 8 59 49 PM" src="https://user-images.githubusercontent.com/45985527/208803738-8a14a7a6-a949-432f-b93f-c3783c1bd6a4.png"> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/GifNum1.gif" alt="" width="250" height="500">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 
+```swift
+//UIKit
 
-| SwiftUI | [See In Real Time](https://apps.apple.com/us/app/quipp-rights-voting-freedom/id1535290604) |
-| --- | --- |
-| <img width="488" alt="Screenshot 2022-12-20 at 8 47 49 PM" src="https://user-images.githubusercontent.com/45985527/208801295-5d02b497-61a1-419e-a34e-4c4685708ecf.png">&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/ezgif.com-optimize.gif" alt="" width="250" height="500">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+func setupView() {
+        self.backgroundColor = .systemBackground
+        self.addSubview(backgroundImage)
+        self.addSubview(customView)
+
+        NSLayoutConstraint.activate([
+            backgroundImage.topAnchor.constraint(equalTo: self.topAnchor),
+            backgroundImage.leadingAnchor.constraint(equalTo: self.leadingAnchor),
+            backgroundImage.trailingAnchor.constraint(equalTo: self.trailingAnchor),
+            backgroundImage.bottomAnchor.constraint(equalTo: self.bottomAnchor),
+            customView.centerXAnchor.constraint(equalTo: self.backgroundImage.centerXAnchor),
+            customView.centerYAnchor.constraint(equalTo: self.backgroundImage.centerYAnchor),
+            customView.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: Values.widthMultiplier)
+        ])
+    }
+
+```
+
+```swift
+// SwiftUI
+
+fileprivate struct ShimmerEffectHelper: ViewModifier {
+    // Shimmer Config
+    var config: ShimmerConfig
+    // Animation Properties
+    @State private var moveTo: CGFloat = -0.7
+    @Binding var startAnimation: Bool
+    func body(content: Content) -> some View {
+        content
+        // Adding shimmer Animation with the help of Masking Modifier
+        // hiding the normal one and adding shimmer on instead
+            .hidden()
+            .overlay {
+                // Changing tint color
+                Rectangle()
+                    .fill(config.tint)
+                    .mask {
+                        content
+                    }
+                    .overlay {
+                        /// Shimmer
+                        GeometryReader {
+                            let size = $0.size
+                            let extraOffset = size.height / 2.5
+                            Rectangle()
+                                .fill(config.highlight)
+                                .mask {
+                                    Rectangle()
+                                    /// Gradient for glowing at the center
+                                        .fill( // Color here is useless since it's a masking view
+                                            .linearGradient(colors: [.white.opacity(0), config.highlight.opacity(config.highlightOpacity), .white.opacity(0)], startPoint: .top, endPoint: .bottom)
+                                        )
+                                    // Adding Blur
+                                        .blur(radius: config.blur)
+                                    //Can add another property in the config for blend mode and use it after the mask if you need more customization.  EG: .mask {}.blendMode()
+                                    // Rotating (Degree: Your choice of Wish)
+                                        .rotationEffect(.init(degrees: -70))
+                                    //Moving to the start
+                                        .offset(x: moveTo > 0 ? extraOffset : -extraOffset)
+                                        .offset(x: size.width * moveTo)
+                                }
+                        }
+                        // Mask with the content
+                        .mask {
+                            if startAnimation {
+                                content
+                            }
+                        }
+                    }
+                // Animating Movement
+                    .onAppear {
+                        // sometimes a forever animation called inside an onappear will cause animation glitches, especially when using inside NavigationView; to avoid that, simply wwrap it inside a dispatchQueue.
+                        DispatchQueue.main.async {
+                            //startAnimation.toggle()
+                            moveTo = 0.7
+                        }
+                    }
+                    .animation(.linear(duration: config.speed).repeatForever(autoreverses: false), value: moveTo)
+            }
+    }
+}
+
+```
+
+```swift
+// ViewModel
+
+struct MainViewModel {
+
+  var arrayNum: Int = 0
+
+  var intPublished = CurrentValueSubject<Int, Never>(0)
+
+  var cancellable = Set<AnyCancellable>()
+
+  // What to do if there are more quotes in the json.
+  private var arr = 0
+
+  mutating func fireTimer() {
+    if arrayNum < (arr - 1) {
+      arrayNum += 1
+    } else {
+      arrayNum = 0
+    }
+    intPublished.send(arrayNum)
+  }
+
+  mutating func fetchQuoteData() -> Future<[QuoteData], Never> {
+    let bundleInfo: [QuoteData] = Bundle.main.decode([QuoteData].self, from: "Omada.json")
+    arr = bundleInfo.count
+    return Future { promise in
+      promise(.success(bundleInfo))
+    }
+  }
+}
+
+```
+```swift
+//Combine
+
+    lazy var warningSubject = PassthroughSubject<[String], Never>()
+    lazy var advisorySubject = PassthroughSubject<[String], Never>()
+    lazy var infoSubject = PassthroughSubject<[String], Never>()
   
-| ViewModel: | Combine |
-| --- | --- |
-| <a href="https://github.com/samgusa/OmadaHealthApp/blob/main/OmadaHealthApp/ViewModel/MainViewModel.swift" target="_blank"><img height="450" alt="Screenshot 2022-12-20 at 5 41 40 PM" src="https://user-images.githubusercontent.com/45985527/208783159-ad4fed4a-2337-409a-8509-89aa582bfa4d.png"> | <img width="598" src="https://user-images.githubusercontent.com/45985527/208804242-28eda6de-593d-4746-9767-8782652f386b.png"> |
-
-| View: | Model: |
-| --- | --- |
-| <a href="https://github.com/samgusa/OmadaHealthApp/blob/main/OmadaHealthApp/View/View/MainView.swift" target="_blank"><img height="500" alt="Screenshot 2022-12-20 at 9 00 22 PM" src="https://user-images.githubusercontent.com/45985527/208803235-901bba32-1338-431c-9476-5c987a1e791b.png"> | <a href="https://github.com/samgusa/OmadaHealthApp/blob/main/OmadaHealthApp/Model/QuoteData.swift" target="_blank"><img width="500" alt="Screenshot 2022-12-20 at 6 16 28 PM" src="https://user-images.githubusercontent.com/45985527/208784457-35557846-7e13-4b62-9841-db3401b47249.png"> |
+    private var cancellables = Set<AnyCancellable>()
   
-| Custom Transition | [See In Real Time](https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1) |
-| --- | --- |
-| <img width="500" alt="Screenshot 2022-12-20 at 6 23 33 PM" src="https://user-images.githubusercontent.com/45985527/208785339-27877374-c4b1-4dd8-9dd3-e8930becff3f.png"> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/GifNum2.gif" alt="" width="250" height="500"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-  
-| Custom SwiftUI | [See In Real Time](https://github.com/samgusa/ArrowTest) |
-| --- | --- |
-| <img width="523" alt="Screenshot 2022-12-20 at 9 26 38 PM" src="https://user-images.githubusercontent.com/45985527/208806148-482227ef-02a6-4fd7-9c64-2067f793b64d.png"> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/GifNum3.gif" alt="" width="250" height="500"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+    func fetchInfoData() {
+    fetchData()
+      .sink { [weak self] data in
+        guard let self = self else { return }
+        let warningLights = data.filter { $0.symbolType == .warning }
+          .map { $0.image }
+        let advisoryLights = data.filter { $0.symbolType == .advisory }
+          .map { $0.image }
+        let infoLights = data.filter { $0.symbolType == .info }
+          .map { $0.image }
+        
+        self.warningSubject.send(warningLights)
+        self.advisorySubject.send(advisoryLights)
+        self.infoSubject.send(infoLights)
+      }
+      .store(in: &cancellables)
 
-
-
-
-
-
+```
 
 # Check out Cool and Fun Animations
   [https://github.com/samgusa/FunAnimations/tree/main](https://github.com/samgusa/FunAnimations/tree/main)
