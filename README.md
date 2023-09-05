@@ -105,7 +105,26 @@ Contract Position: Feb 2022 - May 2022
 ##### Technologies: Swift, SwiftUI, JSON, MVVM
   
 <p align="center"> <a href="https://apps.apple.com/us/app/quipp-rights-voting-freedom/id1535290604" target="_blank"><img src="assets/QUIPP.png" width="900" title="QUIPP-Rights, Voting, Freedom"></a>
-  
+
+## SwiftyTextField
+[SwiftyTextField](https://github.com/samgusa/SwiftyTextField) is my first foray into Swift Frameworks. Created entirely in SwiftUI, and using the latest SwiftUI technologies, SwiftyTextFields is a series of views and viewModifiers that elevate any project. 
+
+Whether you're designing a modern login screen, a stylish user profile form, or a captivating sign-up page, SwiftyTextField empowers you to elevate any user experience with a collection of 3 different Textfields and 2 different ViewModifiers.
+
+##### Technologies: Swift, SwiftUI, Swift Package Manager
+
+<img height="350" src="https://github.com/samgusa/SwiftyTextField/assets/45985527/5395734d-a8e4-4e7f-92a2-420e460ab640">
+&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp
+<img height="350" src="https://github.com/samgusa/SwiftyTextField/assets/45985527/a5145c58-e887-4921-b758-aad43b2d364b">
+&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp
+<img height="350" src="https://github.com/samgusa/SwiftyTextField/assets/45985527/dcd9f504-5761-432c-b809-863dfbe0881f">
+&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp
+<img height="350" src="https://github.com/samgusa/SwiftyTextField/assets/45985527/2e13572f-24f2-4984-8789-dcf770cb2408">
+&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp
+<img height="350" src="https://github.com/samgusa/SwiftyTextField/assets/45985527/440c10d4-2654-4265-9379-733d96b88583">
+&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp
+
+
 # Code Examples
  
 | UIKit | [See In Real Time](https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1) |
