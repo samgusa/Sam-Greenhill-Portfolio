@@ -51,7 +51,7 @@ Experienced iOS Developer proficient in Swift, UIKit, SwiftUI, and Combine React
 ## Fourplay Social  <a href="https://apps.apple.com/us/app/fourplay-double-dating-app/id1463551449" target="_blank"><img src="assets/Fourplay.jpeg" width="20" title="Fourplay Social"></a>
 [Fourplay Social](https://apps.apple.com/us/app/fourplay-double-dating-app/id1463551449) 
 
-Jan 2023 - Present
+Jan 2023 - May 2023
 
 **Responsibilities:** 
 * Contributed to Growing Dating App Development:
