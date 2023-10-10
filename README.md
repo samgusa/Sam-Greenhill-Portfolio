@@ -215,7 +215,7 @@ fileprivate struct ShimmerEffectHelper: ViewModifier {
 ```
 
 ```swift
-// ViewModel
+// MVVM
 
 struct MainViewModel {
 
