@@ -276,7 +276,9 @@ struct MainViewModel {
 ```
 
 # Check out Cool and Fun Animations
-  [https://github.com/samgusa/FunAnimations/tree/main](https://github.com/samgusa/FunAnimations/tree/main)
+  (FunAnimations)[https://github.com/samgusa/FunAnimations/tree/main]
+  (TransitionAnimations)[https://github.com/samgusa/TransitionAnimations/tree/main]
+  (ViewAnimations)[https://github.com/samgusa/ViewAnimations/tree/main]
 <p float="left">
 <img src="assets/GifNum4.gif" alt="" width="100" height="200">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
