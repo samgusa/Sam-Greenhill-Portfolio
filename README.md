@@ -275,6 +275,74 @@ struct MainViewModel {
 
 ```
 
+```swift
+// Firebase
+
+@Published var dogs: [Dog] = []
+
+func fetchData() {
+        // Make sure that it is empty
+        dogs.removeAll()
+        let db = Firestore.firestore()
+        let ref = db.collection("Dogs")
+        ref.getDocuments { snapshot, error in
+            guard error == nil else {
+                print(error?.localizedDescription)
+                return
+            }
+            if let snapshot = snapshot {
+                for document in snapshot.documents {
+                    let data = document.data()
+
+                    let id = data["id"] as? String ?? ""
+                    let breed = data["breed"] as? String ?? ""
+
+                    let dog = Dog(id: id, breed: breed)
+                    self.dogs.append(dog)
+                }
+            }
+        }
+    }
+
+```
+
+```swift
+/// Firebase / Combine
+
+static let db = Firestore.firestore()
+
+    static func fetchTODOs() -> AnyPublisher<[TODOItem], Error> {
+        Future<[TODOItem], Error> { promise in
+            self.db.collection("todos")
+                .getDocuments { snapshot, error in
+                    if let error = error {
+                        promise(.failure(error))
+                        return
+                    }
+
+                    guard let snapshot = snapshot else {
+                        promise(.failure(FirebaseError.badSnapshot))
+                        return
+                    }
+
+                    var items = [TODOItem]()
+                    snapshot.documents.forEach { document in
+                        if let item = try? document.data(as: TODOItem.self) {
+                            if items.contains(where: { $0.title == item.title }) { return }
+                            items.append(item)
+                        }
+                    }
+
+                    promise(.success(items))
+                }
+
+        }
+        .eraseToAnyPublisher()
+    }
+
+
+```
+
 # Check out [Cool](https://github.com/samgusa/TransitionAnimations/tree/main) and [Fun](https://github.com/samgusa/FunAnimations/tree/main) [Animations](https://github.com/samgusa/ViewAnimations/tree/main)
 
 <p float="left">
