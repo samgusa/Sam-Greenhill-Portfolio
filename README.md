@@ -18,6 +18,10 @@ I am also dedicated to cybersecurity, with a passion for safeguarding digital as
 * XCTest (iOS Testing Framework)
 * JSON and REST API Integration
 
+* Python
+* SQL
+* Linux
+
 **Design and User Experience:**
 * UI Design
 * UX Design
@@ -47,6 +51,17 @@ I am also dedicated to cybersecurity, with a passion for safeguarding digital as
   
 **Project Management:**
 * Jira (Project Management and Issue Tracking)
+
+**Cybersecurity Skills**
+* Network Security
+* Security Operations
+* Vulnerability Management
+* Identity and Access Management (IAM)
+* Web Security
+* Secure Development Practices
+
+**Certifications**
+Google Cybersecurity Certification Graduate: 
 
 # Work Experience:
 
