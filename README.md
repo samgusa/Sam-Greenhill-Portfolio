@@ -63,7 +63,8 @@ I am also dedicated to cybersecurity, with a passion for safeguarding digital as
 **Certifications**
 
 * Google Cybersecurity Certification Graduate:
-* <img src="assets/Cert.png" alt="" width="200" height="150">
+  
+  <img src="assets/Cert.png" alt="" width="200" height="150">
 
 # Work Experience:
 
