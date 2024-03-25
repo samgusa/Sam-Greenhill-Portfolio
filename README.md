@@ -395,6 +395,19 @@ for element in remove_list:
 
 print(ip_addresses)
 ```
+```sql
+-- SQL
+SELECT *
+-> FROM log_in_attempts
+-> WHERE login_time > '18:00' AND success = False;
+
+
+SELECT *
+-> FROM log_in_attempts
+-> WHERE NOT country Like 'AM%';
+
+
+```
 
 # Check out [Cool](https://github.com/samgusa/TransitionAnimations/tree/main) and [Fun](https://github.com/samgusa/FunAnimations/tree/main) [Animations](https://github.com/samgusa/ViewAnimations/tree/main)
 
