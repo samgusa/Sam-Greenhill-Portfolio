@@ -1,4 +1,4 @@
-## My iOS Developer Portfolio
+## My Portfolio
 # Sam Greenhill
 
 
