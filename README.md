@@ -406,8 +406,18 @@ SELECT *
 -> FROM log_in_attempts
 -> WHERE NOT country Like 'AM%';
 
+```
+```
+# Linux
+
+$ chmod u-w,g-w,g+r .project.txt
+
+ls -la
+
+$ chmod 0-w project.txt
 
 ```
+
 
 # Check out [Cool](https://github.com/samgusa/TransitionAnimations/tree/main) and [Fun](https://github.com/samgusa/FunAnimations/tree/main) [Animations](https://github.com/samgusa/ViewAnimations/tree/main)
 
