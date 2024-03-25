@@ -414,7 +414,7 @@ $ chmod u-w,g-w,g+r .project.txt
 
 ls -la
 
-$ chmod 0-w project.txt
+$ chmod o-w project.txt
 
 ```
 
