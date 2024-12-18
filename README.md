@@ -4,7 +4,7 @@
 
 Experienced iOS Developer proficient in Swift, UIKit, SwiftUI, and Combine Reactive Programming. Skilled in both MVC and MVVM design patterns, with a focus on Agile development and UI/UX design. Being a self-taught iOS Engineer, I am proficient in application development and experienced with start-ups. I developed two apps for the Apple App Store by myself, and have worked at two fast paced start-ups. I love to learn and use my skills to develop mobile applications. 
 
-I am also dedicated to cybersecurity, with a passion for safeguarding digital assets and protecting against cyber threats. As a certified Google Cybersecurity professional, I possess a solid foundation in network security, vulnerability management, and incident response. With a strong emphasis on continuous learning and staying abreast of the latest security trends and technologies, I am committed to ensuring the confidentiality, integrity, and availability of critical information assets. Leveraging my expertise in cybersecurity frameworks and best practices, I excel in analyzing complex security challenges and implementing robust solutions to mitigate risks. Let's connect and explore how I can contribute to your organization's cybersecurity objectives. I am currently preparing to get my CompTIA Security+ certification
+I am also dedicated to cybersecurity, with a passion for safeguarding digital assets and protecting against cyber threats. As a CompTia Security + certified professional, I possess a solid foundation in network security, vulnerability management, and incident response. With a strong emphasis on continuous learning and staying abreast of the latest security trends and technologies, I am committed to ensuring the confidentiality, integrity, and availability of critical information assets. Leveraging my expertise in cybersecurity frameworks and best practices, I excel in analyzing complex security challenges and implementing robust solutions to mitigate risks. Let's connect and explore how I can contribute to your organization's cybersecurity objectives.
 
 # Special Skills:
 
@@ -65,6 +65,10 @@ I am also dedicated to cybersecurity, with a passion for safeguarding digital as
 * Google Cybersecurity Certification Graduate:
   
   <img src="assets/Cert.png" alt="" width="200" height="150">
+
+* CompTia Security + Certification - Issued December 2024
+  
+
 
 # Work Experience:
 
