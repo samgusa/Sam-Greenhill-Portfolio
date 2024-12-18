@@ -67,6 +67,8 @@ I am also dedicated to cybersecurity, with a passion for safeguarding digital as
   <img src="assets/Cert.png" alt="" width="200" height="150">
 
 * CompTia Security + Certification - Issued December 2024
+
+  <a href="https://www.credly.com/earner/earned/badge/b64df41b-3b45-4954-9d2c-29a8b998c34f" target="_blank"><img src="assets/comptia-security-ce-certification.png" alt="" width="200" height="200">
   
 
 
