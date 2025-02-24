@@ -123,11 +123,6 @@ Contract Position: Feb 2022 - May 2022
 <p align="center">
 <a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank"><img src="assets/WarningLightCamera.png" width="900" title="Warning Light Camera"></a>
   
-  
-## QUIPP-Rights, Voting, Freedom <a href="https://apps.apple.com/us/app/quipp-rights-voting-freedom/id1535290604" target="_blank"><img src="assets/ACLUicon.png" width="20" title="QUIPP"></a>
-  
-[QUIPP](https://apps.apple.com/us/app/quipp-rights-voting-freedom/id1535290604) is a free source of many of the freedoms and rights that Americans have in this country. This information is taken from the [ACLU]("https://www.aclu.org"), but not affiliated with them, which contains information ranging from rights in school, and voting rights. Each right comes with scenarios, examples, and helpful links and phone numbers to try and help anyone who does and wants to call America home. 
-  
 ##### Technologies: Swift, SwiftUI, JSON, MVVM
   
 <p align="center"> <a href="https://apps.apple.com/us/app/quipp-rights-voting-freedom/id1535290604" target="_blank"><img src="assets/QUIPP.png" width="900" title="QUIPP-Rights, Voting, Freedom"></a>
