@@ -120,6 +120,9 @@ Contract Position: Feb 2022 - May 2022
 
 ##### Technologies: Swift, CoreML, Vision Framework, Google AdMob, JSON, MVVM
 
+<p align="center">
+<a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank"><img src="assets/WarningLightCamera.png" width="900" title="Warning Light Camera"></a>
+
 ## SwiftyTextField
 [SwiftyTextField](https://github.com/samgusa/SwiftyTextField) is my first foray into Swift Frameworks. Created entirely in SwiftUI, and using the latest SwiftUI technologies, SwiftyTextFields is a series of views and viewModifiers that elevate any project. 
 
