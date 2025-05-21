@@ -124,6 +124,9 @@ Contract Position: Feb 2022 - May 2022
 <p align="center">
 <a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank"><img src="https://github.com/user-attachments/assets/be1954d0-8a18-4f47-a2b9-7868895fc957" width="500" title="Warning Light Camera"></a>
 
+<a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank"><img src="assets/AppleStore.png" width="40"></a>
+<a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank"><img src="assets/github.png" width="20"></a>
+
 ## SwiftyTextField
 [SwiftyTextField](https://github.com/samgusa/SwiftyTextField) is my first foray into Swift Frameworks. Created entirely in SwiftUI, and using the latest SwiftUI technologies, SwiftyTextFields is a series of views and viewModifiers that elevate any project. 
 
