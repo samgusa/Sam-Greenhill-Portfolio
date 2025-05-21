@@ -118,10 +118,11 @@ Contract Position: Feb 2022 - May 2022
 
 [Warning Light Camera](https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1) is an encyclopedia of dashboard lights from most vehicles on the road today. Using XCode's CreateML to produce an image recognition app that can actually identify the possible warning lights that have appeared. Each light comes with a detailed description, cause, procedure to turn off, as well as telling you the most important question, Can I Still Drive?
 
-##### Technologies: Swift, CoreML, Vision Framework, Google AdMob, JSON, MVVM
+
+##### Technologies: Swift, CoreML, Vision Framework, JSON, MVVM, AVFoundation, Combine
 
 <p align="center">
-<a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank"><img src="assets/WarningLightCamera.png" width="900" title="Warning Light Camera"></a>
+<a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank"><img src="https://github.com/user-attachments/assets/be1954d0-8a18-4f47-a2b9-7868895fc957" width="500" title="Warning Light Camera"></a>
 
 ## SwiftyTextField
 [SwiftyTextField](https://github.com/samgusa/SwiftyTextField) is my first foray into Swift Frameworks. Created entirely in SwiftUI, and using the latest SwiftUI technologies, SwiftyTextFields is a series of views and viewModifiers that elevate any project. 
