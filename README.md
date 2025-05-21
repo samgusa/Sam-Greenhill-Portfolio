@@ -235,61 +235,181 @@ fileprivate struct ShimmerEffectHelper: ViewModifier {
 ```swift
 // MVVM
 
-struct MainViewModel {
+import SwiftUI
+import Vision
+import CoreML
+import OSLog
+import Combine
 
-  var arrayNum: Int = 0
+class ImageDetectionViewModel: ObservableObject {
 
-  var intPublished = CurrentValueSubject<Int, Never>(0)
+    @Published var imageRecogResults: CarSymbols = []
+    @Published var showResults: Bool = false
+    @Published var errorMessage: String?
+    @Published var showError: Bool = false
+    @Published var isProcessing: Bool = false
 
-  var cancellable = Set<AnyCancellable>()
+    private let bundleLight: [CarSymbol] = Bundle.main.decode([CarSymbol].self, from: "carLights.json")
+    private let logger = Logger(subsystem: "CarWarningLight", category: "ImageDetection")
 
-  // What to do if there are more quotes in the json.
-  private var arr = 0
+    func processImage(photo: UIImage) async -> TaskStatus {
 
-  mutating func fireTimer() {
-    if arrayNum < (arr - 1) {
-      arrayNum += 1
-    } else {
-      arrayNum = 0
+        await MainActor.run {
+            self.isProcessing = true
+            self.imageRecogResults = []
+            self.errorMessage = nil
+            self.showError = false
+        }
+
+        guard let ciImage = CIImage(image: photo) else {
+            let message = "Could not process the image"
+            await MainActor.run {
+                self.errorMessage = message
+                self.showError = true
+            }
+            return .failed(message)
+        }
+
+        await detectAsync(image: ciImage)
+
+        if imageRecogResults.isEmpty {
+            let message = "No Symbols detected in the image"
+            await MainActor.run {
+                self.errorMessage = message
+                self.showError = true
+                self.isProcessing = false
+            }
+            logger.warning("\(message)")
+            return .failed(message)
+        }
+
+        await MainActor.run {
+            self.isProcessing = false
+        }
+
+        return .success
     }
-    intPublished.send(arrayNum)
-  }
 
-  mutating func fetchQuoteData() -> Future<[QuoteData], Never> {
-    let bundleInfo: [QuoteData] = Bundle.main.decode([QuoteData].self, from: "Omada.json")
-    arr = bundleInfo.count
-    return Future { promise in
-      promise(.success(bundleInfo))
+    func detectAsync(image: CIImage) async {
+        // Clear previous results
+        await MainActor.run {
+            self.imageRecogResults = []
+        }
+
+        // Let's avoid continuations completely and use atomic operations
+        do {
+            // Load the model
+            let url = MainCarLightMLModel.urlOfModelInThisBundle
+            let model1 = try MainCarLightMLModel(contentsOf: url, configuration: MLModelConfiguration())
+            let model2 = try VNCoreMLModel(for: model1.model)
+
+            // Create and configure request
+            let request = VNCoreMLRequest(model: model2)
+            request.imageCropAndScaleOption = .centerCrop
+
+            // Create a handler and perform the request
+            let handler = VNImageRequestHandler(ciImage: image)
+            try handler.perform([request])
+
+            // Process results - now we're in synchronous code after the request has completed
+            let foundSymbols: CarSymbols = await processVisionResults(request)
+
+            // Update UI on the main thread with the isolated results
+            await MainActor.run {
+                self.imageRecogResults = foundSymbols
+            }
+        } catch {
+            logger.error("Error in vision processing: \(error.localizedDescription)")
+            // Don't update results if there's an error
+        }
     }
-  }
+
+    private func processVisionResults(_ request: VNCoreMLRequest) async -> CarSymbols {
+        var foundSymbols: CarSymbols = []
+
+        // Safely process the results
+        if let results = request.results as? [VNClassificationObservation], !results.isEmpty {
+            let topResults = results.prefix(10)
+
+            for result in topResults {
+                if let match = self.bundleLight.first(where: { $0.name == result.identifier }) {
+                    foundSymbols.append(match)
+                }
+            }
+        } else {
+            logger.warning("No results found or empty results")
+        }
+
+        return foundSymbols
+    }
+
 }
 
 ```
 ```swift
 //Combine
 
-    lazy var warningSubject = PassthroughSubject<[String], Never>()
-    lazy var advisorySubject = PassthroughSubject<[String], Never>()
-    lazy var infoSubject = PassthroughSubject<[String], Never>()
-  
-    private var cancellables = Set<AnyCancellable>()
-  
-    func fetchInfoData() {
-    fetchData()
-      .sink { [weak self] data in
-        guard let self = self else { return }
-        let warningLights = data.filter { $0.symbolType == .warning }
-          .map { $0.image }
-        let advisoryLights = data.filter { $0.symbolType == .advisory }
-          .map { $0.image }
-        let infoLights = data.filter { $0.symbolType == .info }
-          .map { $0.image }
-        
-        self.warningSubject.send(warningLights)
-        self.advisorySubject.send(advisoryLights)
-        self.infoSubject.send(infoLights)
-      }
-      .store(in: &cancellables)
+    private var animationCancellables = Set<AnyCancellable>()
+
+    func startAnimations() {
+
+        guard !isDismissing else { return }
+
+        // Reset all animation states first
+        resetAnimations()
+
+        // Show title with animation
+        withAnimation(.easeOut(duration: 0.4)) {
+            showText = true
+            titleOpacity = 1
+            titleOffset = 0
+        }
+
+        // Stagger card animations with Combine publishers
+        Just(())
+            .delay(for: .seconds(0.3), scheduler: RunLoop.main)
+            .sink { [weak self] _ in
+                guard let self = self else { return }
+                withAnimation(.spring(response: 0.5, dampingFraction: 0.7)) {
+                    self.card1Opacity = 1
+                    self.card1Offset = 0
+                }
+            }
+            .store(in: &animationCancellables)
+
+        Just(())
+            .delay(for: .seconds(0.5), scheduler: RunLoop.main)
+            .sink { [weak self] _ in
+                guard let self = self else { return }
+                withAnimation(.spring(response: 0.5, dampingFraction: 0.7)) {
+                    self.card2Opacity = 1
+                    self.card2Offset = 0
+                }
+            }
+            .store(in: &animationCancellables)
+
+
+        Just(())
+            .delay(for: .seconds(0.7), scheduler: RunLoop.main)
+            .sink { [weak self] _ in
+                guard let self = self else { return }
+                withAnimation(.spring(response: 0.5, dampingFraction: 0.7)) {
+                    self.card3Opacity = 1
+                    self.card3Offset = 0
+                }
+            }
+            .store(in: &animationCancellables)
+
+        Just(())
+            .delay(for: .seconds(0.9), scheduler: RunLoop.main)
+            .sink { [weak self] _ in
+                guard let self = self, !self.isDismissing else { return }
+                withAnimation(.easeInOut(duration: 0.3)) {
+                    self.showDismissButton = true
+                }
+            }
+            .store(in: &animationCancellables)
+    }
 
 ```
 
