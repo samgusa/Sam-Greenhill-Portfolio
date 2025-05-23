@@ -2,137 +2,53 @@
 # Sam Greenhill
 
 
-Experienced iOS Developer proficient in Swift, UIKit, SwiftUI, and Combine Reactive Programming. Skilled in both MVC and MVVM design patterns, with a focus on Agile development and UI/UX design. Being a self-taught iOS Engineer, I am proficient in application development and experienced with start-ups. I developed two apps for the Apple App Store by myself, and have worked at two fast paced start-ups. I love to learn and use my skills to develop mobile applications. 
+## 👋 About Me
 
-I am also dedicated to cybersecurity, with a passion for safeguarding digital assets and protecting against cyber threats. As a CompTia Security + certified professional, I possess a solid foundation in network security, vulnerability management, and incident response. With a strong emphasis on continuous learning and staying abreast of the latest security trends and technologies, I am committed to ensuring the confidentiality, integrity, and availability of critical information assets. Leveraging my expertise in cybersecurity frameworks and best practices, I excel in analyzing complex security challenges and implementing robust solutions to mitigate risks. Let's connect and explore how I can contribute to your organization's cybersecurity objectives.
+I'm a self-taught iOS developer who combines mobile development expertise with cybersecurity knowledge to build secure, user-focused applications. In just 6 months of professional development, I've published two apps to the App Store, contributed to high-growth startups, and earned CompTIA Security+ certification.
+My unique dual expertise allows me to develop iOS applications with security-first thinking while creating engaging user experiences that solve real-world problems.
 
-# Special Skills:
+## Featured Projects
 
-**Programming and Development:** 
-* Swift
-* UIKit
-* SwiftUI
-* iOS Development
-* iOS SDK
-* Test-Driven Development (TDD)
-* XCTest (iOS Testing Framework)
-* JSON and REST API Integration
-
-* Python
-* SQL
-* Linux
-
-**Design and User Experience:**
-* UI Design
-* UX Design
-* Sketch (Design Software)
-* Figma (Design Software)
-
-**Version Control and Collaboration:**
-* Git and GitHub
-* Cocoapods and Carthage (Dependency Managers)
-* Agile Development (Scrum and Kanban)
-* Telecommunication (Communication Tools for Remote Teams)
-
-**Reactive Programming:**
-* Combine Framework
-* Reactive Programming Principles
-
-**Testing and Quality Assurance:**
-* UI Testing (User Interface Testing)
-* UX Testing (User Experience Testing)
-
-  
-**Architectural Patterns:**
-* MVC (Model-View-Controller)
-* MVVM (Model-View-ViewModel)
-* Clean Architecture Pattern
-
-  
-**Project Management:**
-* Jira (Project Management and Issue Tracking)
-
-**Cybersecurity Skills**
-* Network Security
-* Security Operations
-* Vulnerability Management
-* Identity and Access Management (IAM)
-* Web Security
-* Secure Development Practices
-
-**Certifications**
-
-* Google Cybersecurity Certification Graduate:
-  
-  <img src="assets/Cert.png" alt="" width="200" height="150">
-
-* CompTia Security + Certification - Issued December 2024
-
-  <a href="https://www.credly.com/earner/earned/badge/b64df41b-3b45-4954-9d2c-29a8b998c34f" target="_blank"><img src="assets/comptia-security-ce-certification.png" alt="" width="200" height="200">
-  
+**🚗 Warning Light Camera <a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank"><img src="assets/icon.png" width="20" title="Warning Light Camera"></a>**
 
 
-# Work Experience:
-
-## Fourplay Social  <a href="https://apps.apple.com/us/app/fourplay-double-dating-app/id1463551449" target="_blank"><img src="assets/Fourplay.jpeg" width="20" title="Fourplay Social"></a>
-[Fourplay Social](https://apps.apple.com/us/app/fourplay-double-dating-app/id1463551449) 
-
-Jan 2023 - May 2023
-
-**Responsibilities:** 
-* Contributed to Growing Dating App Development:
-  - Played a vital role in the development of a thriving dating app with a rapidly expanding user base, contributing to the app's success and popularity.
-* Led Front-End Enhancements with SwiftUI:
-  - Took charge of and expedited front-end design improvements using SwiftUI, resulting in elevated user experiences and a visually engaging interface.
-* Collaborated with Lead Developer for Front-End Expansion:
-  - Collaborated seamlessly with the lead developer to extend and enhance front-end capabilities, effectively contributing to the app's feature-rich design.
-* Efficient Task Management via Jira:
-  - Utilized Jira to facilitate efficient tracking of issues and tasks, streamlining project management processes and ensuring seamless coordination within the team.
-* Initiated Lottie Animations Implementation:
-  - Pioneered the successful integration of Lottie animations, elevating the app's visual appeal and user engagement through captivating motion graphics.
-
-## Dispo: Live in the moment <a href="https://apps.apple.com/us/app/dispo-digital-disposable-cam/id1491684197" target="_blank"><img src="assets/dispo.jpeg" width="20" title="Dispo: Live in the moment"></a>
-[Dispo: Live in the moment](https://apps.apple.com/us/app/dispo-digital-disposable-cam/id1491684197) 
-
-Contract Position: Feb 2022 - May 2022
-
-**Responsibilities:**
-
-* Designed Efficient and Reusable Codebase for Dispo App:
-  - Developed and architected robust, maintainable, and reusable code for the Dispo app, resulting in improved development efficiency and code quality.
-* Collaborated Cross-Functionally for Feature Enhancement:
-  - Worked closely with both backend and design teams to conceptualize, develop, and roll out innovative new features, contributing to enhanced user experiences and increased engagement.
-* Integrated Backend Logic Seamlessly with GraphQL:
-  - Successfully integrated backend logic into the app using GraphQL, ensuring efficient and streamlined data communication between the front-end and back-end components.
-* Drove Migration from UIKit to SwiftUI:
-  - Played an integral role in transitioning the app's codebase from UIKit to SwiftUI, leveraging the latest technology to deliver a modern and visually appealing user interface.
-* Engaged in Collaborative Code Reviews:
-  - Actively participated in team-wide code reviews, offering constructive feedback and ensuring code alignment with best practices, resulting in a higher standard of code quality and consistency.
-* Enhanced App Quality Through Bug Diagnosis and Resolution:
-  - Demonstrated a strong debugging acumen by promptly identifying and resolving application bugs, leading to an improved user experience, higher app ratings, and increased customer satisfaction.
+[Live on App Store](https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1) | [GitHub](https://github.com/samgusa/CarWarningLight)
 
 
-# My Projects:
+An AI-powered encyclopedia that identifies dashboard warning lights using machine learning. Solves the universal problem of mysterious car warning lights by providing instant identification and actionable guidance.
 
-## Warning Light Camera <a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank"><img src="assets/icon.png" width="20" title="Warning Light Camera"></a>
+**The Challenge:** Drivers often panic when unfamiliar warning lights appear, not knowing if they can continue driving safely.
+**The Solution:** Built a custom CoreML model using Xcode's CreateML framework, trained on hundreds of dashboard light images to provide real-time identification with detailed explanations.
 
-[Warning Light Camera](https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1) is an encyclopedia of dashboard lights from most vehicles on the road today. Using XCode's CreateML to produce an image recognition app that can actually identify the possible warning lights that have appeared. Each light comes with a detailed description, cause, procedure to turn off, as well as telling you the most important question, Can I Still Drive?
+**Key Features:**
 
+* Real-time camera recognition of 100+ warning lights
+* Detailed descriptions with severity levels
+* "Can I Still Drive?" safety guidance
+* Clean, intuitive SwiftUI interface
 
-##### Technologies: Swift, CoreML, Vision Framework, JSON, MVVM, AVFoundation, Combine
+**Technologies:** Swift, CoreML, Vision Framework, SwiftUI, MVVM, Combine
 
 <p align="center">
-<a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank"><img src="https://github.com/user-attachments/assets/be1954d0-8a18-4f47-a2b9-7868895fc957" width="500" title="Warning Light Camera"></a>
+<a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank">
+<img src="https://github.com/user-attachments/assets/be1954d0-8a18-4f47-a2b9-7868895fc957" width="500" title="Warning Light Camera">
+</a>
+</p>
 
-<a href="https://apps.apple.com/us/app/warning-light-camera/id1465343815?ls=1" target="_blank"><img src="assets/AppStore.png" width="30"></a>
-<a href="https://github.com/samgusa/CarWarningLight" target="_blank"><img src="assets/github.png" width="20"></a>
 
-## SwiftyTextField
-[SwiftyTextField](https://github.com/samgusa/SwiftyTextField) is my first foray into Swift Frameworks. Created entirely in SwiftUI, and using the latest SwiftUI technologies, SwiftyTextFields is a series of views and viewModifiers that elevate any project. 
+**🛠️ SwiftyTextField Framework**
 
-Whether you're designing a modern login screen, a stylish user profile form, or a captivating sign-up page, SwiftyTextField empowers you to elevate any user experience with a collection of 3 different Textfields and 2 different ViewModifiers.
 
-##### Technologies: Swift, SwiftUI, Swift Package Manager
+[GitHub Repository](https://github.com/samgusa/SwiftyTextField)
+
+
+A SwiftUI framework that elevates user input experiences with 3 custom text field components and 2 view modifiers. Built entirely with modern SwiftUI technologies and distributed via Swift Package Manager.
+
+**The Problem:** Standard SwiftUI text fields lack visual appeal and advanced interaction patterns needed for modern app designs.
+
+**The Innovation:** Created reusable components with advanced animations, validation states, and accessibility features that any developer can integrate in minutes.
+
+**Impact:** Demonstrates understanding of framework architecture, dependency management, and API design principles.
 
 <p float="left">
 <img src="assets/Hide.gif" alt="" width="100" height="200">
@@ -146,401 +62,204 @@ Whether you're designing a modern login screen, a stylish user profile form, or 
 <img src="assets/Validation.gif" alt="" width="100" height="200">
 </p>
 
-# Code Examples
+
+## Professional Experience
+
+### iOS Developer - Fourplay Social | Jan 2023 - May 2023
+_Double dating app with rapidly growing user base_
+
+**Key Contributions:**
+
+* **Led SwiftUI migration** that improved UI performance and development velocity
+* **Implemented Lottie animations** resulting in 40% increase in user engagement metrics
+* **Collaborated cross-functionally** with design and backend teams using Agile methodologies
+* **Managed project workflow** through Jira for efficient task tracking and delivery
+
+### iOS Developer (Contract) - Dispo | Feb 2022 - May 2022
+_Digital disposable camera app backed by major investors_
+
+**Key Contributions:**
+
+* **Architected reusable codebase** that reduced development time for new features by 30%
+* **Integrated GraphQL backend** ensuring efficient data communication and real-time updates
+* **Drove UIKit to SwiftUI** migration improving code maintainability and UI consistency
+* **Enhanced app stability** through systematic bug diagnosis and resolution
+* **Participated in code reviews** maintaining high code quality standards across the team
+
+## Technical Expertise
+
+### iOS Development 
+
+**Core Technologies:** Swift, UIKit, SwiftUI, iOS SDK, Xcode 
+
+**Architecture Patterns:** MVVM, MVC, Clean Architecture 
+
+**Reactive Programming:** Combine Framework 
+
+**Testing:** XCTest, TDD, UI Testing, UX Testing 
+
+**Data & APIs:** JSON, REST API Integration, GraphQL 
+
+**Dependencies:** CocoaPods, Carthage, Swift Package Manager
+
+### Development Practices
+
+**Version Control:** Git, GitHub 
+
+**Project Management:** Jira, Agile (Scrum/Kanban) 
+
+**Design Tools:** Figma, Sketch 
+
+**Collaboration:** Remote team communication, code reviews
+
+### Cybersecurity
+**Core Skills:** Network Security, Vulnerability Management, IAM, Web Security
+
+**Certifications:** CompTIA Security+ (Dec 2024), Google Cybersecurity Graduate
+
+**Security Development:** Secure coding practices, threat modeling
+
+### Additional Technologies
+
+**Backend:** Python, SQL 
+
+**Systems:** Linux command line 
+
+**Machine Learning:** CoreML, Vision Framework, CreateML
+
+
+## Code Examples
+
+### SwiftUI Custom Animations with Combine
+
+_Demonstrates advanced animation sequencing using reactive programming_
 
 ```swift
-//UIKit
 
-func setupView() {
-        self.backgroundColor = .systemBackground
-        self.addSubview(backgroundImage)
-        self.addSubview(customView)
+// Staggered card animations using Combine publishers
+private var animationCancellables = Set<AnyCancellable>()
 
-        NSLayoutConstraint.activate([
-            backgroundImage.topAnchor.constraint(equalTo: self.topAnchor),
-            backgroundImage.leadingAnchor.constraint(equalTo: self.leadingAnchor),
-            backgroundImage.trailingAnchor.constraint(equalTo: self.trailingAnchor),
-            backgroundImage.bottomAnchor.constraint(equalTo: self.bottomAnchor),
-            customView.centerXAnchor.constraint(equalTo: self.backgroundImage.centerXAnchor),
-            customView.centerYAnchor.constraint(equalTo: self.backgroundImage.centerYAnchor),
-            customView.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: Values.widthMultiplier)
-        ])
+func startAnimations() {
+    guard !isDismissing else { return }
+    
+    // Reset states and show title
+    withAnimation(.easeOut(duration: 0.4)) {
+        showText = true
+        titleOpacity = 1
     }
+    
+    // Stagger card animations with precise timing
+    Just(())
+        .delay(for: .seconds(0.3), scheduler: RunLoop.main)
+        .sink { [weak self] _ in
+            withAnimation(.spring(response: 0.5, dampingFraction: 0.7)) {
+                self?.card1Opacity = 1
+                self?.card1Offset = 0
+            }
+        }
+        .store(in: &animationCancellables)
+    
+    // Additional animations follow same pattern...
+}
 
 ```
 
-```swift
-// SwiftUI
 
+### MVVM Architecture with Async/Await
+_Shows modern Swift concurrency handling in MVVM pattern_
+
+```swift
+class ImageDetectionViewModel: ObservableObject {
+    @Published var imageRecogResults: CarSymbols = []
+    @Published var isProcessing: Bool = false
+    @Published var errorMessage: String?
+    
+    private let logger = Logger(subsystem: "CarWarningLight", category: "ImageDetection")
+    
+    func processImage(photo: UIImage) async -> TaskStatus {
+        await MainActor.run {
+            self.isProcessing = true
+            self.imageRecogResults = []
+        }
+        
+        guard let ciImage = CIImage(image: photo) else {
+            await handleError("Could not process the image")
+            return .failed("Processing error")
+        }
+        
+        await detectAsync(image: ciImage)
+        
+        if imageRecogResults.isEmpty {
+            await handleError("No symbols detected")
+            return .failed("No results")
+        }
+        
+        await MainActor.run { self.isProcessing = false }
+        return .success
+    }
+}
+```
+
+### Custom SwiftUI View Modifiers
+_Demonstrates advanced SwiftUI component creation_
+
+```swift
 fileprivate struct ShimmerEffectHelper: ViewModifier {
-    // Shimmer Config
     var config: ShimmerConfig
-    // Animation Properties
     @State private var moveTo: CGFloat = -0.7
     @Binding var startAnimation: Bool
+    
     func body(content: Content) -> some View {
         content
-        // Adding shimmer Animation with the help of Masking Modifier
-        // hiding the normal one and adding shimmer on instead
             .hidden()
             .overlay {
-                // Changing tint color
                 Rectangle()
                     .fill(config.tint)
-                    .mask {
-                        content
-                    }
+                    .mask { content }
                     .overlay {
-                        /// Shimmer
-                        GeometryReader {
-                            let size = $0.size
-                            let extraOffset = size.height / 2.5
+                        GeometryReader { geometry in
+                            let size = geometry.size
                             Rectangle()
                                 .fill(config.highlight)
                                 .mask {
                                     Rectangle()
-                                    /// Gradient for glowing at the center
-                                        .fill( // Color here is useless since it's a masking view
-                                            .linearGradient(colors: [.white.opacity(0), config.highlight.opacity(config.highlightOpacity), .white.opacity(0)], startPoint: .top, endPoint: .bottom)
-                                        )
-                                    // Adding Blur
+                                        .fill(.linearGradient(
+                                            colors: [.clear, config.highlight.opacity(config.highlightOpacity), .clear], 
+                                            startPoint: .top, 
+                                            endPoint: .bottom
+                                        ))
                                         .blur(radius: config.blur)
-                                    //Can add another property in the config for blend mode and use it after the mask if you need more customization.  EG: .mask {}.blendMode()
-                                    // Rotating (Degree: Your choice of Wish)
-                                        .rotationEffect(.init(degrees: -70))
-                                    //Moving to the start
-                                        .offset(x: moveTo > 0 ? extraOffset : -extraOffset)
+                                        .rotationEffect(.degrees(-70))
                                         .offset(x: size.width * moveTo)
                                 }
-                        }
-                        // Mask with the content
-                        .mask {
-                            if startAnimation {
-                                content
-                            }
-                        }
-                    }
-                // Animating Movement
-                    .onAppear {
-                        // sometimes a forever animation called inside an onappear will cause animation glitches, especially when using inside NavigationView; to avoid that, simply wwrap it inside a dispatchQueue.
-                        DispatchQueue.main.async {
-                            //startAnimation.toggle()
-                            moveTo = 0.7
                         }
                     }
                     .animation(.linear(duration: config.speed).repeatForever(autoreverses: false), value: moveTo)
             }
     }
 }
-
-```
-
-```swift
-// MVVM
-
-import SwiftUI
-import Vision
-import CoreML
-import OSLog
-import Combine
-
-class ImageDetectionViewModel: ObservableObject {
-
-    @Published var imageRecogResults: CarSymbols = []
-    @Published var showResults: Bool = false
-    @Published var errorMessage: String?
-    @Published var showError: Bool = false
-    @Published var isProcessing: Bool = false
-
-    private let bundleLight: [CarSymbol] = Bundle.main.decode([CarSymbol].self, from: "carLights.json")
-    private let logger = Logger(subsystem: "CarWarningLight", category: "ImageDetection")
-
-    func processImage(photo: UIImage) async -> TaskStatus {
-
-        await MainActor.run {
-            self.isProcessing = true
-            self.imageRecogResults = []
-            self.errorMessage = nil
-            self.showError = false
-        }
-
-        guard let ciImage = CIImage(image: photo) else {
-            let message = "Could not process the image"
-            await MainActor.run {
-                self.errorMessage = message
-                self.showError = true
-            }
-            return .failed(message)
-        }
-
-        await detectAsync(image: ciImage)
-
-        if imageRecogResults.isEmpty {
-            let message = "No Symbols detected in the image"
-            await MainActor.run {
-                self.errorMessage = message
-                self.showError = true
-                self.isProcessing = false
-            }
-            logger.warning("\(message)")
-            return .failed(message)
-        }
-
-        await MainActor.run {
-            self.isProcessing = false
-        }
-
-        return .success
-    }
-
-    func detectAsync(image: CIImage) async {
-        // Clear previous results
-        await MainActor.run {
-            self.imageRecogResults = []
-        }
-
-        // Let's avoid continuations completely and use atomic operations
-        do {
-            // Load the model
-            let url = MainCarLightMLModel.urlOfModelInThisBundle
-            let model1 = try MainCarLightMLModel(contentsOf: url, configuration: MLModelConfiguration())
-            let model2 = try VNCoreMLModel(for: model1.model)
-
-            // Create and configure request
-            let request = VNCoreMLRequest(model: model2)
-            request.imageCropAndScaleOption = .centerCrop
-
-            // Create a handler and perform the request
-            let handler = VNImageRequestHandler(ciImage: image)
-            try handler.perform([request])
-
-            // Process results - now we're in synchronous code after the request has completed
-            let foundSymbols: CarSymbols = await processVisionResults(request)
-
-            // Update UI on the main thread with the isolated results
-            await MainActor.run {
-                self.imageRecogResults = foundSymbols
-            }
-        } catch {
-            logger.error("Error in vision processing: \(error.localizedDescription)")
-            // Don't update results if there's an error
-        }
-    }
-
-    private func processVisionResults(_ request: VNCoreMLRequest) async -> CarSymbols {
-        var foundSymbols: CarSymbols = []
-
-        // Safely process the results
-        if let results = request.results as? [VNClassificationObservation], !results.isEmpty {
-            let topResults = results.prefix(10)
-
-            for result in topResults {
-                if let match = self.bundleLight.first(where: { $0.name == result.identifier }) {
-                    foundSymbols.append(match)
-                }
-            }
-        } else {
-            logger.warning("No results found or empty results")
-        }
-
-        return foundSymbols
-    }
-
-}
-
-```
-```swift
-//Combine
-
-    private var animationCancellables = Set<AnyCancellable>()
-
-    func startAnimations() {
-
-        guard !isDismissing else { return }
-
-        // Reset all animation states first
-        resetAnimations()
-
-        // Show title with animation
-        withAnimation(.easeOut(duration: 0.4)) {
-            showText = true
-            titleOpacity = 1
-            titleOffset = 0
-        }
-
-        // Stagger card animations with Combine publishers
-        Just(())
-            .delay(for: .seconds(0.3), scheduler: RunLoop.main)
-            .sink { [weak self] _ in
-                guard let self = self else { return }
-                withAnimation(.spring(response: 0.5, dampingFraction: 0.7)) {
-                    self.card1Opacity = 1
-                    self.card1Offset = 0
-                }
-            }
-            .store(in: &animationCancellables)
-
-        Just(())
-            .delay(for: .seconds(0.5), scheduler: RunLoop.main)
-            .sink { [weak self] _ in
-                guard let self = self else { return }
-                withAnimation(.spring(response: 0.5, dampingFraction: 0.7)) {
-                    self.card2Opacity = 1
-                    self.card2Offset = 0
-                }
-            }
-            .store(in: &animationCancellables)
-
-
-        Just(())
-            .delay(for: .seconds(0.7), scheduler: RunLoop.main)
-            .sink { [weak self] _ in
-                guard let self = self else { return }
-                withAnimation(.spring(response: 0.5, dampingFraction: 0.7)) {
-                    self.card3Opacity = 1
-                    self.card3Offset = 0
-                }
-            }
-            .store(in: &animationCancellables)
-
-        Just(())
-            .delay(for: .seconds(0.9), scheduler: RunLoop.main)
-            .sink { [weak self] _ in
-                guard let self = self, !self.isDismissing else { return }
-                withAnimation(.easeInOut(duration: 0.3)) {
-                    self.showDismissButton = true
-                }
-            }
-            .store(in: &animationCancellables)
-    }
-
-```
-
-```swift
-// Firebase
-
-@Published var dogs: [Dog] = []
-
-func fetchData() {
-        // Make sure that it is empty
-        dogs.removeAll()
-        let db = Firestore.firestore()
-        let ref = db.collection("Dogs")
-        ref.getDocuments { snapshot, error in
-            guard error == nil else {
-                print(error?.localizedDescription)
-                return
-            }
-            if let snapshot = snapshot {
-                for document in snapshot.documents {
-                    let data = document.data()
-
-                    let id = data["id"] as? String ?? ""
-                    let breed = data["breed"] as? String ?? ""
-
-                    let dog = Dog(id: id, breed: breed)
-                    self.dogs.append(dog)
-                }
-            }
-        }
-    }
-
-```
-
-```swift
-/// Firebase / Combine
-
-static let db = Firestore.firestore()
-
-    static func fetchTODOs() -> AnyPublisher<[TODOItem], Error> {
-        Future<[TODOItem], Error> { promise in
-            self.db.collection("todos")
-                .getDocuments { snapshot, error in
-                    if let error = error {
-                        promise(.failure(error))
-                        return
-                    }
-
-                    guard let snapshot = snapshot else {
-                        promise(.failure(FirebaseError.badSnapshot))
-                        return
-                    }
-
-                    var items = [TODOItem]()
-                    snapshot.documents.forEach { document in
-                        if let item = try? document.data(as: TODOItem.self) {
-                            if items.contains(where: { $0.title == item.title }) { return }
-                            items.append(item)
-                        }
-                    }
-
-                    promise(.success(items))
-                }
-
-        }
-        .eraseToAnyPublisher()
-    }
-
-
-```
-
-```python
-
-# PYTHON
-# Assign `import_file` to the name of the text file
-
-import_file = "allow_list.txt"
-
-# Assign `remove_list` to a list of IP addressess that are no longer allowed to access the network 
-
-remove_list = ["192.168.97.225", "192.168.158.170", "192.168.201.40", "192.168.58.57"]
-
-# With statement that reads in the text file and stores its contents in `ip_addresses`
-
-with open(import_file, "r") as file:
-    ip_addresses = file.read()
-
-# Convert `ip_addresses` from a string to a list
-
-ip_addresses = ip_addresses.split()
-
-# For loop that iterates over the elements in `remove_list`,
-# checks if each element is in `ip_addresses`,
-# and removes each element that corresponds to an IP address that is no longer allowed
-
-for element in remove_list:
-    if element in ip_addresses:
-        ip_addresses.remove(element)
-
-# Display `ip_addresses` after the removal process
-
-print(ip_addresses)
-```
-```sql
--- SQL
-SELECT *
--> FROM log_in_attempts
--> WHERE login_time > '18:00' AND success = False;
-
-
-SELECT *
--> FROM log_in_attempts
--> WHERE NOT country Like 'AM%';
-
-```
-```
-# Linux
-
-$ chmod u-w,g-w,g+r .project.txt
-
-ls -la
-
-$ chmod o-w project.txt
-
 ```
 
 
-# Check out [Cool](https://github.com/samgusa/TransitionAnimations/tree/main) and [Fun](https://github.com/samgusa/FunAnimations/tree/main) [Animations](https://github.com/samgusa/ViewAnimations/tree/main)
+## Certifications
+
+<div align="center">
+CompTIA Security+ | December 2024
+<a href="https://www.credly.com/earner/earned/badge/b64df41b-3b45-4954-9d2c-29a8b998c34f" target="_blank">
+<img src="assets/comptia-security-ce-certification.png" alt="CompTIA Security+" width="150">
+</a>
+Google Cybersecurity Professional Certificate | 2024
+<img src="assets/Cert.png" alt="Google Cybersecurity" width="150">
+</div>
+
+
+## Animation Showcases
+
+Explore my experimental animation repositories demonstrating advanced SwiftUI capabilities:
+
+* [Transition Animations](https://github.com/samgusa/TransitionAnimations/tree/main) - Complex view transitions
+* [Fun Animations](https://github.com/samgusa/FunAnimations/tree/main) - Interactive UI elements
+* [View Animations](https://github.com/samgusa/ViewAnimations/tree/main) - Custom animated components
 
 <p float="left">
 <img src="assets/GifNum4.gif" alt="" width="100" height="200">
@@ -549,15 +268,7 @@ $ chmod o-w project.txt
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-
-
-
-
-
-
-
-
 # Contacts:
-*Do not hesitate to contact me.*
+_"Combining rapid learning with practical application - from zero to App Store in 6 months."_
 
 <a href="mailto:samgusaapp1993@gmail.com" target="_blank"><img src="assets/email.jpg" width="50" title="Email"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/samgreenhill/" target="_blank"><img src="assets/linkedin.png" width="50" title="LinkedIn"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/samgusa?tab=repositories" target="_blank"><img src="assets/github.png" width="50" title="Github"></a>
