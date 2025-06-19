@@ -243,11 +243,13 @@ fileprivate struct ShimmerEffectHelper: ViewModifier {
 
 ## Certifications
 
-<div align="center">
+<div align="left">
 CompTIA Security+ | December 2024
 <a href="https://www.credly.com/earner/earned/badge/b64df41b-3b45-4954-9d2c-29a8b998c34f" target="_blank">
 <img src="assets/comptia-security-ce-certification.png" alt="CompTIA Security+" width="150">
 </a>
+
+    
 Google Cybersecurity Professional Certificate | 2024
 <img src="assets/Cert.png" alt="Google Cybersecurity" width="150">
 </div>
