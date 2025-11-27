@@ -63,7 +63,43 @@ A SwiftUI framework that elevates user input experiences with 3 custom text fiel
 </p>
 
 **SecureState <a href="https://apps.apple.com/us/app/securestate/id6755612597" target="_blank"><img src="assets/SecureState.png" width="20" title="SecureState"></a>**
+
 [Live on App Store](https://apps.apple.com/us/app/securestate/id6755612597)
+
+A modern iOS cybersecurity dashboard that helps users understand their overall security posture — not just on-device safeguards, but also situational habits that influence real-world risk. Designed with a security-first mindset and presented through a friendly, guided UI.
+
+**The Problem:** iOS security settings are powerful, but they only tell half the story. A user’s behavior — network safety, update habits, password hygiene, and device usage patterns — is often a bigger factor in staying secure.
+**The Solution:** SecureState provides a dual-layer security score that measures both device configuration and real-world situational security. Users receive clear explanations, severity indicators, and actionable steps tailored to both categories.
+
+**Key Features:**
+
+* Dual-Layer Security Score
+Evaluates Device Security (passcode strength, biometrics, OS version, lock screen protections) and Situational Security (update cadence, privacy behavior, network habits, password strength awareness, and more)
+* Dynamic Progress Ring
+Uses adaptive color transitions with custom luminance logic for accessibility
+* Achievement System (Pro)
+Rewards users for strengthening both device and behavioral security
+* Real-Time Status Indicators
+SwiftUI-driven state updates with smooth animations
+* Non-Technical Explanations
+Clear, friendly descriptions that translate cybersecurity concepts into everyday language
+
+
+**Engineering Highlights:**
+
+* Designed a custom theme color system with luminance calculations to maintain readable contrast across varied user-picked colors
+* Built a test-heavy release workflow, heavily validating UI interactions and edge cases prior to shipping
+* Integrated StoreKit 2 for modern in-app purchase flow using async/await
+* Implemented LocalAuthentication and system-level security checks
+* Structured with clean MVVM architecture for scalability and clarity
+* Created an extensible scoring engine that blends numeric weighting with real-world conditions, not just static device flags
+
+  
+**Technologies:** Swift, SwiftUI, MVVM, StoreKit 2, Combine, LocalAuthentication, Async/Await, SwiftData
+
+
+<img width="10393" height="2778" alt="Group 3" src="https://github.com/user-attachments/assets/2fa69c8c-7259-454c-adbc-3fba5c1c4de8" />
+
 
 ## Professional Experience
 
