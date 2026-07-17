@@ -63,7 +63,6 @@ A SwiftUI framework that elevates user input experiences with 3 custom text fiel
 </p>
 
 
-
 **SecureState <a href="https://apps.apple.com/us/app/securestate/id6755612597" target="_blank"><img src="assets/SecureState.png" width="20" title="SecureState"></a>**
 
 [Live on App Store](https://apps.apple.com/us/app/securestate/id6755612597)
