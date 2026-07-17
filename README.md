@@ -61,7 +61,9 @@ A SwiftUI framework that elevates user input experiences with 3 custom text fiel
 &nbsp;&nbsp;&nbsp&nbsp
 <img src="assets/Validation.gif" alt="" width="100" height="200">
 </p>
-
+<br>
+<br>
+<br>
 **SecureState <a href="https://apps.apple.com/us/app/securestate/id6755612597" target="_blank"><img src="assets/SecureState.png" width="20" title="SecureState"></a>**
 
 [Live on App Store](https://apps.apple.com/us/app/securestate/id6755612597)
@@ -84,26 +86,59 @@ SwiftUI-driven state updates with smooth animations
 * Non-Technical Explanations
 Clear, friendly descriptions that translate cybersecurity concepts into everyday language
 
-**Lumen: Video Player <a href="https://apps.apple.com/us/app/lumen-video-player/id6775323054" target="_blank"><img src="assets/SecureState.png" width="20" title="Lumen: Video Player"></a>**
-
-
-**Engineering Highlights:**
-
-* Designed a custom theme color system with luminance calculations to maintain readable contrast across varied user-picked colors
-* Built a test-heavy release workflow, heavily validating UI interactions and edge cases prior to shipping
-* Integrated StoreKit 2 for modern in-app purchase flow using async/await
-* Implemented LocalAuthentication and system-level security checks
-* Structured with clean MVVM architecture for scalability and clarity
-* Created an extensible scoring engine that blends numeric weighting with real-world conditions, not just static device flags
-
-  
-**Technologies:** Swift, SwiftUI, MVVM, StoreKit 2, Combine, LocalAuthentication, Async/Await, SwiftData
-
-
 <img width="10393" height="2778" alt="Group 3" src="https://github.com/user-attachments/assets/2fa69c8c-7259-454c-adbc-3fba5c1c4de8" />
 
 
+**Lumen: Video Player <a href="https://apps.apple.com/us/app/lumen-video-player/id6775323054" target="_blank"><img src="assets/LumenIcon.png" width="20" title="Lumen: Video Player"></a>**
+
+[Live on App Store](https://apps.apple.com/us/app/lumen-video-player/id6775323054)
+
+A personal video player built for people who don't want a one-size-fits-all playback experience. A fully customizable video player, where you, the user, gets to create how the app looks and plays. 
+
+**The Challenge:** Most video players offer a single fixed layout and control scheme, forcing every user into the same interaction pattern regardless of ability, preference, or context — a real accessibility gap for anyone who can't reliably use touch gestures.
+**The Solution:** Built an entirely custom AVFoundation playback pipeline with independently configurable UI, gesture sensitivity, and an ARKit-based face-gesture system that lets users map blinks, head turns, and facial expressions to playback actions — calibrated per-user through a guided onboarding flow.
+
+**Key Features:**
+
+* 5 player layouts — Cinematic, Streamlined, Classic, Custom, and System, each independently configurable
+* Hands-free face-gesture control via ARKit blend-shape and head-pose tracking, with per-gesture calibration
+* Customizable Watch App: Apple Watch companion app with 5 watch-side layouts, Digital Crown volume/scrub/skip, and a live-playback widget complication
+* Vault — play directly from Photos, iCloud Drive, and Files providers via security-scoped bookmarks, with no file duplication
+* Volume Normalization: Automatic volume normalization across a library with inconsistent source loudness
+* Picture-in-Picture, AirPlay, background playback, and full lock-screen/Control Center integration
+* Accessibility: Full VoiceOver and Dynamic Type support throughout
+  
+**Technologies:** Swift, SwiftUI, MVVM, StoreKit, Combine, LocalAuthentication, Async/Await, SwiftData, WatchKit, Accessibility, AVFoundation
+
+<img src="assets/LumenScreen.png" alt="" width="10393" height="2778">
+
+
 ## Professional Experience
+
+#### IT & Security Support:
+
+### IT Asset Technician - PartnerRe | May 2026 - June 2026
+
+**Key Contributions:**
+
+* **Inventory:** Tracked and managed IT assets during equipment refresh and decommissioning projects
+* **Ticketing:** Updated ticketing systems and documents hardware inventory changes.
+* **Help Desk:** Reviewed, updated, and closed tickets in accordance with established procedures.
+
+### IT Help Desk Technician - Western Connecticut State University | May 2025 - September 2025
+
+**Key Contributions:**
+
+* **Support:** Monitored and supported user issues across campus systems, including authentication, device performance, and
+network access.
+* **Problem Solving:** Performed first-level troubleshooting for connectivity issues, password resets, MFA, and system
+availability.
+* **Project Management:** Documented incidents clearly and escalated technical issues to higher-level engineers when
+necessary.
+* **Troubleshooting:** Assisted with routine checks on campus devices, ensuring operational readiness.
+* **Team Work:** Provided remote and in-person support for Windows, macOS, and mobile devices.
+
+#### iOS Development:
 
 ### iOS Developer - Fourplay Social | Jan 2023 - May 2023
 _Double dating app with rapidly growing user base_
@@ -115,7 +150,7 @@ _Double dating app with rapidly growing user base_
 * **Collaborated cross-functionally** with design and backend teams using Agile methodologies
 * **Managed project workflow** through Jira for efficient task tracking and delivery
 
-### iOS Developer (Contract) - Dispo | Feb 2022 - May 2022
+### iOS Developer - Dispo | Feb 2022 - May 2022
 _Digital disposable camera app backed by major investors_
 
 **Key Contributions:**
