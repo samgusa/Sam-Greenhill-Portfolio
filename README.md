@@ -84,6 +84,8 @@ SwiftUI-driven state updates with smooth animations
 * Non-Technical Explanations
 Clear, friendly descriptions that translate cybersecurity concepts into everyday language
 
+**Lumen: Video Player <a href="https://apps.apple.com/us/app/lumen-video-player/id6775323054" target="_blank"><img src="assets/SecureState.png" width="20" title="Lumen: Video Player"></a>**
+
 
 **Engineering Highlights:**
 
