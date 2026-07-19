@@ -164,7 +164,7 @@ _Digital disposable camera app backed by major investors_
 
 ### iOS Development 
 
-**Core Technologies:** Swift, UIKit, SwiftUI, iOS SDK, Xcode 
+**Core Technologies:** Swift, UIKit, SwiftUI, iOS SDK, Xcode, WatchKit
 
 **Architecture Patterns:** MVVM, MVC, Clean Architecture 
 
